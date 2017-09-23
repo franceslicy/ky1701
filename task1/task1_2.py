@@ -5,7 +5,7 @@ if len(sys.argv)!=4: exit()
 
 input_key = sys.argv[1]
 input_scale = sys.argv[2]
-input_chord = sys.argv[3]
+input_chord = sys.argv[3].upper()
 output = ""
 
 chord_number = const.ROMAN.index(input_chord)

@@ -5,24 +5,6 @@ INTEVAL = [2, 2, 1, 2, 2, 2, 1]
 MAJOR = [2, 2, 1, 2, 2, 2, 1]
 MINOR = [2, 1, 2, 2, 1, 2, 2]
 
-# perfect_unison = [0, 0] perf1
-# minor_second = [1, 1] min2
-# major_second = [1, 2] maj2
-# minor_third = [2, 3] min3
-# major_third = [2, 4] maj3
-# perfect_fourth = [3, 5] perf4
-# augmented_fourth = [3, 6] aug4
-# diminished_fifth = [4, 6] dim5
-# perfect_fifth = [4, 7] perf5
-# augmented_fifth = [4, 8] aug5
-# minor_sixth = [5, 8] min6
-# major_sixth = [5, 9] maj6
-# augmented_sixth = [5, 10] aug6
-# diminished_seventh = [6, 9] dim7
-# minor_seventh = [6, 10] min7
-# major_seventh = [6, 11] maj7
-# perfect_octave = [7, 12] perf8
-
 perf1 = [0, 0] 
 min2 = [1, 1] 
 maj2 = [1, 2] 

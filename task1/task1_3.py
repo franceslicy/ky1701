@@ -31,10 +31,15 @@ minor_table = {
 }
 
 
-#In cases of total match
-if(input_notes in major_table):
-    print(input_key + " " + "Major Chord " + major_table[input_notes])
-elif(input_notes in minor_table):
-    print(input_key + " " + "Minor Chord " + minor_table[input_notes])
-else:
-    print("No possible match for gievn notes")
+#In cases of total match and inclusion
+found = 0
+for notes in major_table:
+    if input_notes <= notes:
+        print(input_key + " " + "Major Chord " + major_table[notes])
+        found = 1
+for notes in minor_table:
+    if input_notes <= notes:
+        print(input_key + " " + "Minor Chord " + minor_table[notes])
+        found = 1
+if(found==0):
+    print("No possible match for given notes")

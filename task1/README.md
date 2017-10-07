@@ -32,8 +32,21 @@ You can use keys from C to B and major/minor scale as the input.
 For the chord, the program is currently working for major and minor triad chords (I, II ..., VII). It can be further developed for other diminished/seventh chords.
 
 ### task1.3
-Yet to be done :(
+In the terminal, run the script with the following pattern
+```
+<your python3 executable> task1_3.py <key> <chord notes splited by whitespaces>
+```
+for example
+```
+python3.6 task1_3.py C C E G
+```
+This will print all possible chord numbers for the given key and chord notes
+You can use keys from C to B and any notes as the input.
 
 ## Progress
 ### 24/9
 * Finish the first two subtasks
+
+### 07/10
+* Revise the code for the first two subtasks
+* Finish the total match case for the third subtask

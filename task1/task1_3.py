@@ -91,6 +91,7 @@ if(len(input_notes)>1):
                 found = 1
         for notes in minor_table:
             if new_notes <= notes:
+                chord_num = minor_table[notes]
                 if(minor_found[chord_num]==0):
                     print(input_key + " " + "Minor Chord " + chord_num + " (One Mismatch)")
                     minor_found[chord_num] = 1
@@ -130,6 +131,7 @@ if(len(input_notes)>2):
                 found = 1
         for notes in minor_table:
             if new_notes <= notes:
+                chord_num = minor_table[notes]
                 if(minor_found[chord_num]==0):
                     print(input_key + " " + "Minor Chord " + chord_num + " (Two Mismatches)")
                     minor_found[chord_num] = 1

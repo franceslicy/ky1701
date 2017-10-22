@@ -103,6 +103,7 @@ for i in range(len(tmplist)):
             found = 1
     for notes in minor_table:
         if new_notes <= notes:
+            chord_num = minor_table[notes]
             if(minor_found[chord_num]==0):
                 print(input_key + " " + "Minor Chord " + chord_num + " (One Mismatch)")
                 minor_found[chord_num] = 1
@@ -135,6 +136,7 @@ orderlist = [order_table[x] for x in tmplist]
 minNote = order_table[min(orderlist)]
 tmplist = list(filter((minNote).__ne__, tmplist))
 
+if(len(tmplist)<=2): sys.exit()
 subsets = itertools.combinations(tmplist, len(tmplist)-2)
 for subset in subsets:
     new_notes = list(subset)
@@ -149,6 +151,7 @@ for subset in subsets:
             found = 1
     for notes in minor_table:
         if new_notes <= notes:
+            chord_num = minor_table[notes]
             if(minor_found[chord_num]==0):
                 print(input_key + " " + "Minor Chord " + chord_num + " (Two Mismatches)")
                 minor_found[chord_num] = 1

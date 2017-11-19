@@ -627,21 +627,56 @@ notes = sys.argv[3:]
 key = key.replace('b','-')
 key = key.upper()
 tonic_note = note.Note(key)
-tonic_note.octave = None
+tonic_note.octave = 4
 notes = [x.replace('b','-') for x in notes]
 notes = [x.upper() for x in notes]
 
-sub_dict = major_chord if scale=="major" else minor_chord
+
+note_duration = {}
+currentNote = None
+for n in notes:
+    try:
+        n = float(n)
+    except ValueError:
+        currentNote = note.Note(n)
+        if currentNote.octave == None: currentNote.octave = 4
+    else:
+        currentNote.quarterLength = n
+        note_duration[currentNote.nameWithOctave] = note_duration.get(currentNote.nameWithOctave, 0) + currentNote.quarterLength
+tuplist = [(name,dur) for name,dur in note_duration.items()]
+tuplist = sorted(tuplist, key=lambda tup: tup[1], reverse=True)
+print(tuplist)
+notes = [x[0] for x in tuplist]
+#tonic_note.octave = note.Note(notes[0]).octave
+
+tmp = list(notes)
+clear = 0
+while(clear==0):
+    for i, n in enumerate(tmp):
+        if(i==len(tmp)-1):
+            clear = 1
+        else:
+            inter = interval.Interval(note.Note(tmp[i]),note.Note(tmp[i+1]))
+            if(inter.name in ['m2','M2']):
+                index = i + 1
+                tmp = [x for x in tmp if x!=tmp[index]]
+                break
+notes = tmp
+print(notes)
+
+
+sub_dict = major_chord if scale.lower()=="major" else minor_chord
 best_index = -1
 
 for index, n in enumerate(notes):
-  n = note.Note(n)
-  n.octave = None
-  i = interval.Interval(tonic_note, n)
-  if i.name not in sub_dict:
-    break
-  best_index = index
-  sub_dict = sub_dict[i.name]
+    n = note.Note(n)
+    #n.octave = None
+    i = interval.Interval(tonic_note, n)
+    #print(i.name)
+    if i.name not in sub_dict:
+        break
+    best_index = index
+    sub_dict = sub_dict[i.name]
 
 result = sub_dict['result']
 exclude = notes[best_index+1:]

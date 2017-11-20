@@ -633,7 +633,9 @@ notes = [x.upper() for x in notes]
 
 
 note_duration = {}
+notelist = []
 currentNote = None
+count = 0
 for n in notes:
     try:
         n = float(n)
@@ -642,28 +644,36 @@ for n in notes:
         if currentNote.octave == None: currentNote.octave = 4
     else:
         currentNote.quarterLength = n
-        note_duration[currentNote.nameWithOctave] = note_duration.get(currentNote.nameWithOctave, 0) + currentNote.quarterLength
+        notelist.append((currentNote.nameWithOctave,currentNote.quarterLength, count))
+        count = count + 1
+print([(x[0],x[1]) for x in notelist])
+if(len(notelist)<3):
+    clear = 1
+else:
+    clear = 0
+while(clear==0):
+    for i in range(len(notelist)):
+        if(i==len(notelist)-2 or i==len(notelist)-2 or len(notelist)<3):
+            clear = 1
+            break
+        else:
+            i1 = interval.Interval(note.Note(notelist[i][0]),note.Note(notelist[i+1][0]))
+            i2 = interval.Interval(note.Note(notelist[i+1][0]),note.Note(notelist[i+2][0]))
+            if(i1.directedName== 'M2' and i2.directedName == 'M2'):
+                index = i+1
+                notelist = [x for x in notelist if x!=notelist[index]]
+                break
+            elif(i1.directedName== 'M-2' and i2.directedName == 'M-2'):
+                index = i+1
+                notelist = [x for x in notelist if x!=notelist[index]]
+                break
+for i,n in enumerate(notelist):
+    note_duration[notelist[i][0]] = note_duration.get(notelist[i][0], 0) + notelist[i][1]
 tuplist = [(name,dur) for name,dur in note_duration.items()]
 tuplist = sorted(tuplist, key=lambda tup: tup[1], reverse=True)
 print(tuplist)
 notes = [x[0] for x in tuplist]
 #tonic_note.octave = note.Note(notes[0]).octave
-
-tmp = list(notes)
-clear = 0
-while(clear==0):
-    for i, n in enumerate(tmp):
-        if(i==len(tmp)-1):
-            clear = 1
-        else:
-            inter = interval.Interval(note.Note(tmp[i]),note.Note(tmp[i+1]))
-            if(inter.name in ['m2','M2']):
-                index = i + 1
-                tmp = [x for x in tmp if x!=tmp[index]]
-                break
-notes = tmp
-print(notes)
-
 
 sub_dict = major_chord if scale.lower()=="major" else minor_chord
 best_index = -1

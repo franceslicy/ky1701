@@ -4,7 +4,7 @@ from itertools import groupby
 from pprint import *
 from music21 import *
 
-def fillRestAndQuantify(pn_list):
+def fillRestAndQuantify(pn_list, isTrain=False):
 	# prev note list
 	prev = None
 	prev_list = []
@@ -23,6 +23,7 @@ def fillRestAndQuantify(pn_list):
 	prev_dict = dict(prev_list)
 	nex_dict = dict(nex_list)
 	out_list = []
+	label = None
 	for (beat, n) in pn_list:
 		filled_n = None
 		if not n.isRest:
@@ -52,19 +53,38 @@ def fillRestAndQuantify(pn_list):
 		if filled_n is not None:
 			if filled_n.isChord:
 				for filled_subn in filled_n:
-					out_list.append((beat, filled_subn.midi%12))
+					out_list.append((beat, filled_subn.pitch.midi%12))
 			else:
-				out_list.append((beat, filled_n.midi%12))
+				out_list.append((beat, filled_n.pitch.midi%12))
+
+		# output chord label for train mode
+		if isTrain:
+			if len(n.lyrics)==1 and n.lyrics[0].text:
+				label = n.lyrics[0].text
+			out_list.append((beat, label))
 
 	return out_list
 
 
-# output to tuple: ((measureNumber, beat) , [12-param vector])
-def parameterize(measure, beat, pitch_list):
+# output to tuple: 
+# training mode: ((measureNumber, beat), [12-param vector], label)
+# apply mode: ((measureNumber, beat), [12-param vector])
+def parameterize(measure, beat, param_list, isTrain=False):
 	vector = [0]*12
-	for pitch in pitch_list:
-		vector[pitch] = 1
-	return ((measure,beat),vector)
+	label = None
+	for param in param_list:
+		if isinstance(param, int) and param >= 0 and param <= 11:
+			vector[param] = 1
+
+		# output chord label for train mode
+		if isTrain and isinstance(param, str):
+			label = param
+
+	if isTrain:
+		return ((measure,beat),vector,label)
+	else:
+		return ((measure,beat),vector)
+
 
 
 def preProcess(s, isTrain=False):
@@ -77,25 +97,25 @@ def preProcess(s, isTrain=False):
 	ns = figuredBass.checker.getVoiceLeadingMoments(s)
 	ns = ns.voicesToParts()
 
-
 	normalized_data = []
 	for mNumber in range(1,measureNumber+1):
 		m = ns.measure(mNumber)
 		n_list = []
+		label_list = []
 		for p in m.parts:
 			pn_list = [(n.beat,n) for n in p.recurse().getElementsByClass('GeneralNote')]
-			pn_list = fillRestAndQuantify(pn_list)
+			pn_list = fillRestAndQuantify(pn_list, isTrain)
 			n_list.extend(pn_list)
-		# todo: get chord label from lyric (n.lyrics) for isTrain=True
-		n_list = sorted(n_list)
+		n_list = sorted(n_list, key=lambda x: x[0])
 		beat_list = [(beat, [pitch for _, pitch in g]) for beat, g in groupby(n_list, key=lambda x: x[0])]
-		for (beat, pitch_list) in beat_list:
-			normalized_data.append(parameterize(mNumber, beat, pitch_list))
+		for (beat, param_list) in beat_list:
+			normalized_data.append(parameterize(mNumber, beat, param_list, isTrain))
 	return normalized_data
 
 xmlName = sys.argv[1]
+isTrain = sys.argv[2] if len(sys.argv) == 3 else False
 s = converter.parse(xmlName)
-data = preProcess(s, True);
+data = preProcess(s, isTrain=="train");
 pprint(data);
 
 # notes:

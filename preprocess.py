@@ -59,7 +59,7 @@ def fillRestAndQuantify(pn_list):
 	return out_list
 
 
-# output to tuple of index(measureNumber, beat) and 12-param vector
+# output to tuple: ((measureNumber, beat) , [12-param vector])
 def parameterize(measure, beat, pitch_list):
 	vector = [0]*12
 	for pitch in pitch_list:

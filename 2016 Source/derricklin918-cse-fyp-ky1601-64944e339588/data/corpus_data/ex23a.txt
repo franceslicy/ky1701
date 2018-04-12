@@ -1,0 +1,15 @@
+ex23a.xml	String Quartet Op. 74 No. 3, II, mm. 30-37	Haydn
+C	Major	6
+C_maj_0
+A_dom7_0
+D_min_0
+G_dom7_0
+C_maj_0
+A_min_1
+E	Minor	6
+G#_dim_1
+A_min_0
+E_min_2
+X_ger6_0
+B_maj_0
+B_dom7_0

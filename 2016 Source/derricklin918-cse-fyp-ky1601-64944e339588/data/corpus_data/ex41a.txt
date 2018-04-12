@@ -1,0 +1,35 @@
+ex41a.xml	Aus meinen Thranen spriessen, mm. 1-17	Schumann
+A	Major	33
+A_maj_0
+A_maj7_3
+F#_min_0
+A_maj_2
+D_maj_0
+A_maj_0
+E_dom7_0
+A_maj_0
+E_dom7_0
+A_maj_0
+A_maj7_3
+F#_min_0
+A_maj_2
+D_maj_0
+A_maj_0
+E_dom7_0
+A_maj_0
+E_dom7_0
+A_maj_0
+E_maj_0
+F#_dom7_1
+B_min_0
+G#_hdim_0
+C#_maj_0
+G#_hdim_0
+C#_maj_0
+A_dom7_0
+D_maj_0
+A_maj_0
+E_dom7_0
+A_maj_0
+E_dom7_0
+A_maj_0

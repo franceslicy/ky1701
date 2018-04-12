@@ -1,0 +1,9 @@
+ex16a.xml	Mazurka Op. 63, No. 2, mm. 1-16	Chopin
+F	Minor	7
+C_maj_0
+C_d7b9_0
+G_hdim_1
+F_min_2
+C_dom7_0
+F_min_0
+Db_maj_1

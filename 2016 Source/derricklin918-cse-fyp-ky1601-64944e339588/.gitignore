@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.log
+/log/*
+.idea/
+*.mscz
+/saved_reduction_models/*

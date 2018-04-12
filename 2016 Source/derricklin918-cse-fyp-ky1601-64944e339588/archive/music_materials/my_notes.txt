@@ -1,0 +1,212 @@
+
+inversion vs function
+roman vs bass
+
+chord to bass line
+chord double root
+e.g.
+
+CEG 1 > 5 > 3
+
+bass > root
+
+**
+V7 can be reduced to V -> root, third
+
+major, minor same V7
+
+
+write summary implement program write report 
+
+I 64 (GCE) is similar with V 64(or even better!)
+
+II(FAD) IV(FAC) II7(DFAC) are similar
+
+Tonic: I VI
+Subdominant: II IV
+Dominant: V VII III
+
+steps to find key
+reduce scores to list of chords
+match chords to music keys
+try to find possible progression “path”
+V7 -> I perfect cadence
+
+
+========
+save model
+
+all front end parameters binary
+
+
+most of time bass changes, bass -> chord
+
+baseline -> roman number change
+
+chord recognition
+bar by bar
+beat by beat
+smaller
+
+3 styles
+1. user define parameter without neural network
+2. select learnt style
+3. do machine learning
+
+Feb 8
+
+single note -> single note (ambiguous)
+Canon in D
+single note is a chord
+
+e.g.
+C -> D -> C -> C
+1. all combines into a chord
+2. each note is chord
+
+broken chord
+
+(1) 1 note
+to
+(2) 2 note
+
+C G D
+
+1. merge with reason, 1st note is belong to 2nd notes
+bg: C major
+C -> GD
+I -> V
+4 notes -> 1 note
+if the 1 note is much higher in pitch, bass line indicates a chord
+
+bassline does not rest. baseline
+(C)EGC -> G -> G -> G…
+chord not change
+(C)EGC -> D -> E -> F -> G
+chord probably changes (has dissonance)
+numerical
+C IV53 (F)AC -> C II63 (F)AD
+or
+figured bass
+C IV (F)AC -> C IV
+
+summary
+II65 DFAC
+
+use canon to test harmony
+statistic analysis of chord conflict and flow
+
+
+Counts I V priority
+I -> V -> V -> I
+add pitch classes dynamically
+
+seventh replace third, fifth
+
+dissonance resolves by step
+B -> C
+
+pedal point
+lowest note, irrelevant to the chord used
+
+17th century separate by thirds
+
+20th built by fourth
+CFB DGC EAD
+
+=====
+03/06/2017
+test case
+C
+CE
+CEF
+CEA
+CEG
+CEG
+C
+CE
+
+music key:
+C maj: I VI G Major VI
+C maj: I G major II V I
+G maj: IV II V I
+
+10 chords
+D minor -> G major
+7th and 8th are V and I
+? ? ? ? ? ? V/G I/G ? ?
+I/d minor ? ? ? ? ? V/G I/G ? ?
+
+Then the 2nd chord to 6th chord somewhere there music theorist would identify a place called a pivot
+pivot means the chord belongs to both d minor and G major
+
+Two big categories
+1. Secondary dominants not modulation
+2. pivot then confirmation key change
+
+Secondary dominants mean at any given time. The composer can write a V or VII of any key and resolve to that key.
+VII I means diminished seventh
+e.g. C chord -> V of F# minor -> F# minor
+secondary dominant is not modulation and temporary
+C -> V/F# -> F# -> V/Bb -> Bb
+as long as it’s V or dim7 of a key and to that key
+Modulation
+Old key……..an area of possible pivots to new key……. cadence V to I in new key……..
+Pivots is: C major x chord = G major y chord
+
+computer to identify the latest or earliest pivot
+
+Step 1
+Find the cadence in the new key
+Step 2
+Keep backing up from the cadence to see where the pivot is
+D D/G D D/G D/G D/G G G G G 
+/ here means or
+the 6th chord is the latest pivot chord
+2nd chord as pivot not good
+because 3rd is exclusive D minor
+
+optional key input
+
+================
+
+I+ can only occur at the end
+Picardy third
+
+resolve consequent dissonances
+
+append -1 0 +1 is like adding reverb
+
+analyze left hand
+save exact chords
+analyze both hands
+
+homophonic
+left hand: homophonic texture
+
+three or more notes ring in the same rhythm => analyze notes
+
+e.g. a score with chords by chords
+
+
+
+
+key signature -> put more weight on that key
+
+V7 65 43 42 -> must be same key
+
+todos
+1. alternative way from acoustic lasting effect
+2. Add key signature assumptions
+3. remove transition II -> I
+4. if dissonance cannot resolve in step/half step -> X dissonance and reconsider
+5. less possible modulations
+6. i+
+7. seven chord inversion -> DF#AC F#  
+
+reduction:
+1. sample choice
+2. abstract 
+
+
+corrected pitch class = set(corrected pitch class) - dissonance

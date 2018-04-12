@@ -1,0 +1,16 @@
+ex31a.xml	Marriage of Figaro, "Voi che sapete", mm. 41-52	Mozart
+Ab	Major	3
+Ab_maj_1
+Bb_min_1
+Ab_maj_0
+C	Minor	2
+C_min_2
+G_dom7_0
+G	Minor	7
+G_min_2
+X_Ger6_0
+D_maj_0
+Eb_maj_0
+A_hdim_1
+D_dom7_0
+G_min_0

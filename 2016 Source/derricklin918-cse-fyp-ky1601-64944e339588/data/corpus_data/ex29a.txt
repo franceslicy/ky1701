@@ -1,0 +1,21 @@
+ex29a.xml	Sonata K. 333, III, mm. 91-98	Mozart
+C	Minor	9
+C_min_1
+B_fdim_1
+B_fdim_2
+C_min_1
+G_maj_1
+C_min_1
+C_min_1
+G_maj_1
+C_min_0
+Bb	Major	9
+Bb_maj_1
+A_fdim_1
+A_fdim_2
+Bb_min_1
+F_maj_1
+Bb_min_0
+Bb_min_1
+F_maj_1
+Bb_min_0

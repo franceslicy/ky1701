@@ -1,0 +1,12 @@
+ex9a.xml	Sonata-op.2-no.3,III	Beethoven
+A	Minor	10
+A_min_0
+E_maj_2
+A_min_1
+E_dom7_3
+A_min_1
+B_dim_1
+E_maj_0
+A_min_2
+E_dom7_0
+A_min_0

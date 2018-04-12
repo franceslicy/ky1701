@@ -1,0 +1,13 @@
+ex28a.xml	Sonata K. 330, II, mm. 21-28	Mozart
+F	Minor	5
+F_min_0
+E_fdim_0
+F_min_0
+C_dom7_1
+F_min_0
+Ab	Major	5
+Db_maj_1
+Eb_dom7_1
+Ab_maj_0
+Bb_min_1
+Ab_maj_0

@@ -1,0 +1,20 @@
+ex27a.xml	Piano Concerto K. 488, II, mm. 1-12	Mozart
+F#	Minor	18
+F#_min_0
+G#_hdim_3
+F#_min_0
+F#_min_1
+G#_hdim_1
+F#_min_2
+C#_maj_0
+D_maj_1
+G#_hdim_0
+A_maj_0
+B_dom7_0
+C#_maj_1
+F#_min_0
+D_maj_0
+G_maj_0
+F#_min_2
+C#_dom7_0
+F#_min_0

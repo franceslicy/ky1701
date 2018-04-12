@@ -1,0 +1,15 @@
+ex11a.xml	String-Quartet-Op.135,III	Beethoven
+Db	Major	13
+Ab_dom7_2
+Db_maj_0
+Ab_dom7_1
+Ab_dom7_2
+Eb_min_1
+F_dom7_0
+Bb_maj_1
+Eb_min_0
+Ab_dom7_1
+Db_maj_0
+Db_maj_2
+Ab_dom7_0
+Db_maj_0

@@ -1,0 +1,22 @@
+ex32a.xml	Sonata in Bb, D. 960, I, mm. 149-68	Schubert
+B	Major	6
+B_maj_0
+B_maj_2
+F#_dom7_0
+B_maj_2
+F#_dom7_0
+B_maj_0
+Bb	Minor	3
+C_fdim_0
+F_dom7_0
+Bb_min_0
+Db	Major	6
+Bb_min_0
+G_fdim_0
+Ab_dom7_0
+Db_maj_0
+Eb_min_0
+Db_maj_0
+E	Major	2
+B_dom7_0
+E_maj_0

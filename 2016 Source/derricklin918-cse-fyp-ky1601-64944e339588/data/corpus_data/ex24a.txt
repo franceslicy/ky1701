@@ -1,0 +1,20 @@
+ex24a.xml	String Quartet Op. 76 No. 6, II, mm. 31-39	Haydn
+Bb	Major	12
+Bb_maj_0
+F_dom7_2
+Bb_maj_0
+F_dom7_1
+Bb_maj_0
+Eb_maj7_0
+C_min_0
+C_dom7_1
+F_maj_0
+Bb_min_0
+F_dom7_2
+Bb_min_1
+B	Major	5
+B_maj_1
+A#_dim_2
+B_maj_2
+F#_dom7_0
+B_maj_0

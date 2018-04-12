@@ -1,0 +1,11 @@
+ex46a.xml	Symphony No. 6, I, mm. 89-97	Tchaikovsky
+D	Major	9
+D_maj_0
+D_fdim_0
+C#_hdim_0
+D#_fdim_0
+E_min_0
+C#_fdim_0
+D_maj_0
+D_maj_2
+D_maj_0

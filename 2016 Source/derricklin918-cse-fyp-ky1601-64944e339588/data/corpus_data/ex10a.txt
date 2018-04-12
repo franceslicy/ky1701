@@ -1,0 +1,14 @@
+ex10a.xml	Sonata-op.27,I	Beethoven
+C#	Minor	8
+C#_min_0
+C#_dom7_3
+A_maj_0
+D_maj_1
+G#_dom7_0
+C#_min_2
+G#_dom7_0
+C#_min_0
+E	Major	3
+F#_min_0
+B_dom7_0
+E_maj_0

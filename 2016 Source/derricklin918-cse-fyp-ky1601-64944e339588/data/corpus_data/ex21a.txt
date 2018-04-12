@@ -1,0 +1,15 @@
+ex21a.xml	String Quartet Op. 20 No. 4, I, mm. 13-24	Haydn
+D	Major	13
+D_maj_0
+A_dom7_0
+D_maj_0
+C#_hdim_0
+D_maj_0
+E_min_0
+E_min7_3
+A_dom7_1
+D_maj_0
+E_min_1
+D_maj_2
+A_dom7_0
+B_min_0

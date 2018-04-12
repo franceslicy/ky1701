@@ -1,0 +1,14 @@
+ex26a.xml	Eine Kleine Nachtmusik, L. 525, II, 61 mm. 1-8	Mozart
+C	Major	12
+C_maj_0
+C_maj_0
+C_maj_2
+G_maj_0
+C_maj_0
+B_hdim_0
+C_maj_0
+C_maj_1
+D_min7_1
+C_maj_02
+G_dom7_0
+C_maj_0

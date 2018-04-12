@@ -1,0 +1,36 @@
+ex43a.xml	Wenn ich in deine Augen seh', mm. 1-21	Schumann
+G	Major	5
+G_maj_1
+E_min_0
+A_min_0
+D_maj_0
+A_min_0
+C	Major	5
+F_maj_1
+C_maj_2
+D_min7_1
+D_min7_1
+C_maj_2
+E	Minor	7
+C_maj_0
+A_min_1
+B_dom7_0
+E_min_0
+A_min_0
+B_dom7_0
+E_min_0
+G	Major	14
+B_dom7_0
+E_min_0
+G#_fdim_2
+A_min_1
+A_min_1
+A_dom7_1
+G_maj_2
+G_maj_0
+G_dom7_0
+C_maj_0
+G_maj_0
+G_dom7_0
+C_maj_2
+G_maj_0

@@ -1,0 +1,35 @@
+KEY,I,I6,I64,bII,bII6,II,II6,II7,II65,III,III6,IV,IV6,IV64,V,V6,V64,V7,V65,V43,V42,bVI,bVI6,gerVI,freVI,itaVI,VI,VI6,VII,VII6,dimVII7,dimVII65,dimVII43,dimVII42
+I, ,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+I6,Yes,,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No
+I64,Yes,Yes,,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+bII,No,No,No,,Yes,No,No,No,No,No,No,No,No,No,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes
+bII6,No,Yes,Yes,Yes,,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,Yes
+II,No,Yes,Yes,No,No,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
+II6,Yes,Yes,Yes,No,No,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+II7,No,Yes,Yes,No,No,Yes,Yes,,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
+II65,No,Yes,Yes,No,No,Yes,Yes,Yes,,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+III,Yes,Yes,Yes,No,No,No,Yes,No,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No
+III6,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+IV,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+IV6,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+IV64,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+V,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes
+V6,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes
+V64,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+V7,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes
+V65,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,,,Yes,No,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes
+V43,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,,Yes,No,Yes,No,No,No,No,Yes,No,No,Yes,Yes,Yes,Yes
+V42,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes
+bVI,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,Yes,No,No,Yes,No,No,No,,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes
+bVI6,Yes,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,Yes,Yes,No,Yes,,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes
+gerVI,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Yes,No,No,No,Yes,Yes,,Yes,Yes,No,No,No,No, No,No,No,No
+freVI,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Yes,No,No,No,Yes,Yes,Yes,,Yes,No,No,No,No,No,No,No,No
+itaVI,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,Yes,No,No,Yes,No,No,No,Yes,Yes,Yes,Yes,,No,No,No,No,No,No,No,No
+VI,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,,Yes,No,Yes,Yes,Yes,Yes,Yes
+VI6,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,,No,Yes,Yes,Yes,Yes,Yes
+VII,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,,Yes,Yes,Yes,Yes,Yes
+VII6,Yes,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,,Yes,Yes,Yes,Yes
+dimVII7,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,No,No,Yes,,Yes,Yes,Yes
+dimVII65,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,No,No,No,Yes,Yes,,Yes,Yes
+dimVII43,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No,Yes,Yes,Yes,,Yes
+dimVII42,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,

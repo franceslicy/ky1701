@@ -1,0 +1,8 @@
+ex18a.xml	The Mountain Maid Op. 67, No. 2, mm. 1-11	Grieg
+F	Minor	6
+F_min_0
+F_min_0
+X_Ger6_0
+C_maj_2
+X_Fr6_0
+C_dom7_3

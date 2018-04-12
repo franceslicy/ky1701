@@ -1,0 +1,35 @@
+ex44a.xml	Morning Prayer, mm. 1-17	Tchaikovsky
+G	Major	33
+G_maj_0
+D_maj_0
+C_maj_1
+G_maj_0
+D_maj_0
+E_min_0
+A_min_1
+B_maj_0
+E_dom7_1
+A_dom7_3
+D_dom7_1
+G_maj_0
+D_dom7_2
+G_maj_1
+C_maj_0
+A_dom7_1
+D_maj_0
+G_maj_0
+D_maj_0
+C_maj_1
+G_maj_0
+C_maj_1
+G_maj_2
+C_maj_0
+F#_dom7_1
+B_dom7_3
+E_maj_1
+A_dom7_3
+D_maj_1
+G_maj_0
+C_maj_1
+A_min7_1
+G_maj_0

@@ -1,0 +1,12 @@
+ex34a.xml	Erlkonig, mm. 134-48	Schubert
+G	Minor	10
+G_min_0
+G_dom7_0
+C_min_0
+Ab_maj_0
+G_fdim_0
+Ab_maj_0
+Ab_maj_1
+C#_fdim_0
+D_dom7_0
+G_min_0

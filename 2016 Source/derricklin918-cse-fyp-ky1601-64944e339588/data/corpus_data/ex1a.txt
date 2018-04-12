@@ -1,0 +1,22 @@
+ex1a.xml	minuet	Bach
+G	Major	20
+G_maj_0
+G_maj_1
+C_maj_0
+G_maj_1
+F#_dim_1
+G_maj_0
+D_maj_0
+G_maj_1
+G_maj_0
+D_maj_0
+G_maj_1
+G_maj_0
+C_maj_0
+G_maj_1
+F#_dim_1
+G_maj_0
+G_maj_1
+A_min_1
+D_maj_0
+G_maj_1

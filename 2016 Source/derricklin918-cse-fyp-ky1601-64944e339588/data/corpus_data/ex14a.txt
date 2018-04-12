@@ -1,0 +1,25 @@
+ex14a.xml	Oh! You Beautiful Doll!	Ayer
+Ab	Major	23
+Ab_maj_0
+Eb_dom7_2
+Ab_maj_0
+X_Ger6_0
+Ab_maj_0
+F_dom7_2
+Bb_dom7_2
+E_fdim_0
+Bb_dom7_2
+E_fdim_0
+Bb_dom7_2
+C_min_0
+Eb_dom7_2
+Eb_dom7_0
+Eb_dom7_2
+Eb_dom7_2
+Eb_dom7_2
+Ab_maj_0
+Eb_dom7_0
+Ab_maj_0
+Ab_maj_1
+Ab_maj_0
+X_Ger6_0

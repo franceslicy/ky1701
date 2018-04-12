@@ -1,0 +1,6 @@
+ex8a.xml	Sonata-op.14-no.1,III	Beethoven
+E	Minor	4
+A_min_0
+F#_hdim_1
+G#_fdim_0
+F#_hdim_1

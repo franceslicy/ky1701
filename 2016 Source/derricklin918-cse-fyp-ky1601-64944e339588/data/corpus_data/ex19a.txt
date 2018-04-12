@@ -1,0 +1,15 @@
+ex19a.xml	Sonata No. 22, III, mm. 1-8	Haydn
+E	Major	5
+E_maj_0
+E_maj_0
+E_maj_1
+F#_min7_0
+B_maj_1
+B	Major	7
+B_maj_1
+C#_min7_0
+A#_dim_1
+C#_min_1
+B_maj_2
+F#_dom7_0
+B_maj_0

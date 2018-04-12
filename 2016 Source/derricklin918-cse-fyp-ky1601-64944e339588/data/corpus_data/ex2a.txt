@@ -1,0 +1,29 @@
+ex2a.xml	Kindlein	Bach
+G	Major	3
+G_maj_0
+D_maj_1
+G_maj_0
+C	Major	4
+F_maj_0
+G_maj_0
+D_dom7_0
+C_maj_0
+G	Major	6
+G_maj_0
+G_maj_1
+D_dom7_0
+G_maj_0
+D_dom7_0
+B_maj_1
+D	Major	4
+E_min_0
+A_maj_0
+C#_dim_1
+B_maj_0
+G	Major	6
+C_maj_1
+G_maj_0
+E_min_1
+G_maj_0
+D_dom7_0
+G_maj_0

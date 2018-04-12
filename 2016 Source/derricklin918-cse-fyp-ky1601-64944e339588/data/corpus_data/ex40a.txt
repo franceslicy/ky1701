@@ -1,0 +1,8 @@
+ex40a.xml	Sehnsucht, mm. 2-11	Schumann
+D	Minor	1
+D_min_0
+F	Major	2
+C_min7_0
+F_dom7_0
+D	Minor	1
+Bb_maj_0

@@ -1,0 +1,25 @@
+ex38a.xml	Originaltanze Op. 9 No. 14, mm. 1-24	Schubert
+Db	Major	12
+Db_maj_0
+Ab_maj_1
+Ab_dom7_1
+Ab_maj_0
+Db_maj_0
+Eb_dom7_0
+Ab_maj_0
+Db_maj_0
+Ab_maj_1
+Ab_dom7_1
+Ab_maj_0
+Db_maj_0
+A	Major	6
+A_maj_0
+E_dom7_0
+A_maj_0
+D_maj_0
+A_maj_0
+A_dom7_0
+Db	Major	3
+Db_maj_2
+Ab_dom7_0
+Db_maj_0

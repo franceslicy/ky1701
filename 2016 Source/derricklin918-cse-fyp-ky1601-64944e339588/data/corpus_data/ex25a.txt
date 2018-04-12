@@ -1,0 +1,22 @@
+ex25a.xml	Bassoon Concerto K. 191, II, mm. 42-50	Mozart
+F	Major	20
+F_maj_0
+G_min_1
+F_maj_2
+C_dom7_3
+F_maj_1
+G_min_1
+F_maj_1
+C_dom7_3
+F_maj_1
+F_dom7_1
+Bb_maj_0
+G_dom7_0
+C_dom7_2
+F_maj_1
+Bb_maj_0
+Bb_maj_0
+F_maj_1
+Bb_maj_1
+F_maj_2
+F_maj_0

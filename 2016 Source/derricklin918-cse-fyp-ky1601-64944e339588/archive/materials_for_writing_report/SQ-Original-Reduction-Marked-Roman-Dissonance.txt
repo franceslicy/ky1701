@@ -1,0 +1,145 @@
+Measure: 1 no. of events: 8 candidates: ['DAF']
+	Event: 0 0.0	Pitches: D	Step2 Pitches: DF	Chord: ['DAF']	Dissonance: []	
+	Event: 1 0.25	Pitches: DF	Step2 Pitches: DAF	Chord: ['DAF']	Dissonance: []	
+	Event: 2 0.5	Pitches: DA	Step2 Pitches: DGAF	Chord: ['DAF']	Dissonance: []	
+	Event: 3 0.75	Pitches: DG	Step2 Pitches: DFGA	Chord: ['DAF']	Dissonance: ['G']	
+	Event: 4 1.0	Pitches: FD	Step2 Pitches: DAFG	Chord: ['DAF']	Dissonance: []	
+	Event: 5 1.25	Pitches: AF	Step2 Pitches: DFA	Chord: ['DFA']	Dissonance: []	
+	Event: 6 1.5	Pitches: FA	Step2 Pitches: FDA	Chord: ['FDA']	Dissonance: []	
+	Event: 7 1.75	Pitches: DF	Step2 Pitches: FDA	Chord: ['FDA']	Dissonance: []	
+Measure: 2 no. of events: 8 candidates: ['C#EA']
+	Event: 8 0.0	Pitches: EG#	Step2 Pitches: EG#A	Chord: ['C#EA']	Dissonance: ['G#']	
+	Event: 9 0.25	Pitches: A	Step2 Pitches: EG#A	Chord: ['C#EA']	Dissonance: []	
+	Event: 10 0.5	Pitches: G#	Step2 Pitches: G#A	Chord: []	Dissonance: 	
+	Event: 11 0.75	Pitches: A	Step2 Pitches: G#A	Chord: []	Dissonance: 	
+	Event: 12 1.0	Pitches: G#	Step2 Pitches: G#A	Chord: []	Dissonance: 	
+	Event: 13 1.25	Pitches: A	Step2 Pitches: EAG#	Chord: ['C#EA']	Dissonance: []	
+	Event: 14 1.5	Pitches: E	Step2 Pitches: C#EA	Chord: ['C#EA']	Dissonance: []	
+	Event: 15 1.75	Pitches: C#	Step2 Pitches: C#E	Chord: ['C#EA']	Dissonance: []	
+Measure: 3 no. of events: 6 candidates: ['AEC#']
+	Event: 16 0.0	Pitches: A	Step2 Pitches: AC#	Chord: ['AEC#']	Dissonance: []	
+	Event: 17 0.25	Pitches: AC#	Step2 Pitches: AEC#	Chord: ['AEC#']	Dissonance: []	
+	Event: 18 0.5	Pitches: E	Step2 Pitches: ADEC#	Chord: ['AEC#']	Dissonance: []	
+	Event: 19 0.75	Pitches: D	Step2 Pitches: C#ED	Chord: ['AEC#']	Dissonance: ['D']	
+	Event: 20 1.25	Pitches: EC#	Step2 Pitches: C#AED	Chord: ['AEC#']	Dissonance: []	
+	Event: 21 1.5	Pitches: A	Step2 Pitches: C#AE	Chord: ['C#AE']	Dissonance: []	
+Measure: 4 no. of events: 8 candidates: ['FAD']
+	Event: 22 0.0	Pitches: C#	Step2 Pitches: C#D	Chord: []	Dissonance: 	
+	Event: 23 0.25	Pitches: D	Step2 Pitches: C#D	Chord: []	Dissonance: 	
+	Event: 24 0.5	Pitches: C#	Step2 Pitches: C#D	Chord: []	Dissonance: 	
+	Event: 25 0.75	Pitches: D	Step2 Pitches: C#D	Chord: []	Dissonance: 	
+	Event: 26 1.0	Pitches: C#	Step2 Pitches: C#D	Chord: []	Dissonance: 	
+	Event: 27 1.25	Pitches: D	Step2 Pitches: ADC#	Chord: ['FAD']	Dissonance: []	
+	Event: 28 1.5	Pitches: A	Step2 Pitches: FAD	Chord: ['FAD']	Dissonance: []	
+	Event: 29 1.75	Pitches: F	Step2 Pitches: FA	Chord: ['FAD']	Dissonance: []	
+Measure: 5 no. of events: 7 candidates: ['DFA']
+	Event: 30 0.0	Pitches: AD	Step2 Pitches: DA	Chord: ['DFA']	Dissonance: []	
+	Event: 31 0.25	Pitches: D	Step2 Pitches: DFA	Chord: ['DFA']	Dissonance: []	
+	Event: 32 0.5	Pitches: F	Step2 Pitches: DEF	Chord: ['DFA']	Dissonance: []	
+	Event: 33 0.75	Pitches: E	Step2 Pitches: DEF	Chord: ['DFA']	Dissonance: ['E']	
+	Event: 34 1.0	Pitches: D	Step2 Pitches: DFE	Chord: ['DFA']	Dissonance: []	
+	Event: 35 1.25	Pitches: F	Step2 Pitches: DAF	Chord: ['DAF']	Dissonance: []	
+	Event: 36 1.75	Pitches: A	Step2 Pitches: FA	Chord: ['DFA']	Dissonance: []	
+Measure: 6 no. of events: 8 candidates: ['G#BE']
+	Event: 37 0.0	Pitches: D#DG#	Step2 Pitches: G#D#DE	Chord: ['G#BE']	Dissonance: ['D#', 'D']	
+	Event: 38 0.25	Pitches: E	Step2 Pitches: G#D#ED	Chord: ['G#BE']	Dissonance: []	
+	Event: 39 0.5	Pitches: D#	Step2 Pitches: D#E	Chord: []	Dissonance: 	
+	Event: 40 0.75	Pitches: E	Step2 Pitches: D#E	Chord: []	Dissonance: 	
+	Event: 41 1.0	Pitches: D#	Step2 Pitches: D#E	Chord: []	Dissonance: 	
+	Event: 42 1.25	Pitches: E	Step2 Pitches: BED#	Chord: ['G#BE']	Dissonance: []	
+	Event: 43 1.5	Pitches: B	Step2 Pitches: G#BE	Chord: ['G#BE']	Dissonance: []	
+	Event: 44 1.75	Pitches: G#	Step2 Pitches: G#B	Chord: ['G#BE']	Dissonance: []	
+Measure: 7 no. of events: 8 candidates: ['G#BE']
+	Event: 45 0.0	Pitches: EG#	Step2 Pitches: G#E	Chord: ['G#BE']	Dissonance: []	
+	Event: 46 0.25	Pitches: G#	Step2 Pitches: G#BE	Chord: ['G#BE']	Dissonance: []	
+	Event: 47 0.5	Pitches: B	Step2 Pitches: G#AB	Chord: ['G#BE']	Dissonance: []	
+	Event: 48 0.75	Pitches: A	Step2 Pitches: EG#AB	Chord: ['G#BE']	Dissonance: ['A']	
+	Event: 49 1.0	Pitches: G#E	Step2 Pitches: EBG#A	Chord: ['G#BE']	Dissonance: []	
+	Event: 50 1.25	Pitches: EB	Step2 Pitches: EBG#	Chord: ['EBG#']	Dissonance: []	
+	Event: 51 1.5	Pitches: E	Step2 Pitches: EDB	Chord: ['G#BE']	Dissonance: []	
+	Event: 52 1.75	Pitches: ED	Step2 Pitches: ED	Chord: []	Dissonance: 	
+Measure: 8 no. of events: 4 candidates: []
+	Event: 53 0.0	Pitches: A	Step2 Pitches: AD	Chord: ['DAF']	Dissonance: []	
+	Event: 54 0.5	Pitches: DA	Step2 Pitches: GDA	Chord: ['GDB-']	Dissonance: ['A']	
+	Event: 55 1.0	Pitches: DG	Step2 Pitches: GDA	Chord: ['DAF#']	Dissonance: ['G']	
+	Event: 56 1.5	Pitches: DG	Step2 Pitches: GD	Chord: ['GDB-']	Dissonance: []	
+Measure: 9 no. of events: 4 candidates: []
+	Event: 57 0.0	Pitches: F#	Step2 Pitches: F#	Chord: []	Dissonance: 	
+	Event: 58 0.5	Pitches: F#	Step2 Pitches: DF#	Chord: ['DF#A']	Dissonance: []	
+	Event: 59 1.0	Pitches: F#D	Step2 Pitches: DF#	Chord: ['BDF#']	Dissonance: []	
+	Event: 60 1.5	Pitches: F#D	Step2 Pitches: DF#	Chord: ['DF#A']	Dissonance: []	
+Measure: 10 no. of events: 7 candidates: ['DAF#']
+	Event: 61 0.0	Pitches: G	Step2 Pitches: DG	Chord: ['GDB-']	Dissonance: []	
+	Event: 62 0.5	Pitches: GD	Step2 Pitches: DGF#	Chord: ['DAF#']	Dissonance: ['G']	
+	Event: 63 1.0	Pitches: GF#	Step2 Pitches: DAGF#	Chord: ['DAF#']	Dissonance: ['G']	
+	Event: 64 1.5	Pitches: AG	Step2 Pitches: F#GA	Chord: ['DAF#']	Dissonance: ['G']	
+	Event: 65 1.625	Pitches: G	Step2 Pitches: GF#A	Chord: ['DAF#']	Dissonance: ['G']	
+	Event: 66 1.75	Pitches: GF#	Step2 Pitches: GEF#	Chord: ['EGB']	Dissonance: ['F#']	
+	Event: 67 1.875	Pitches: GE	Step2 Pitches: GEF#	Chord: ['CGE']	Dissonance: []	
+Measure: 11 no. of events: 4 candidates: []
+	Event: 68 0.0	Pitches: A	Step2 Pitches: DA	Chord: ['DAF#']	Dissonance: []	
+	Event: 69 0.5	Pitches: D	Step2 Pitches: DG#A	Chord: ['DAF']	Dissonance: []	
+	Event: 70 1.0	Pitches: DG#	Step2 Pitches: DAG#	Chord: ['DAF#']	Dissonance: ['G#']	
+	Event: 71 1.5	Pitches: DA	Step2 Pitches: G#DA	Chord: ['DAF']	Dissonance: []	
+Measure: 12 no. of events: 7 candidates: ['DGB']
+	Event: 72 0.0	Pitches: GB	Step2 Pitches: DGB	Chord: ['DGB']	Dissonance: []	
+	Event: 73 0.5	Pitches: GD	Step2 Pitches: DGF#AB	Chord: ['DGB']	Dissonance: []	
+	Event: 74 1.0	Pitches: GF#A	Step2 Pitches: DABGF#	Chord: ['DGB']	Dissonance: ['F#', 'A']	
+	Event: 75 1.5	Pitches: AB	Step2 Pitches: ABGF#	Chord: ['DGB']	Dissonance: ['A']	
+	Event: 76 1.625	Pitches: BG	Step2 Pitches: BF#GA	Chord: ['DGB']	Dissonance: []	
+	Event: 77 1.75	Pitches: BF#	Step2 Pitches: BEF#G	Chord: ['DGB']	Dissonance: ['F#']	
+	Event: 78 1.875	Pitches: BE	Step2 Pitches: BEF#	Chord: ['EBG']	Dissonance: []	
+Measure: 13 no. of events: 4 candidates: ['EAC']
+	Event: 79 0.0	Pitches: DAC	Step2 Pitches: DAC	Chord: ['EAC']	Dissonance: ['D']	
+	Event: 80 0.5	Pitches: D	Step2 Pitches: DEAC	Chord: ['EAC']	Dissonance: ['D']	
+	Event: 81 1.0	Pitches: DE	Step2 Pitches: DF#E	Chord: ['DF#A']	Dissonance: ['E']	
+	Event: 82 1.5	Pitches: DF#	Step2 Pitches: EDF#	Chord: ['BDF#']	Dissonance: []	
+Measure: 14 no. of events: 8 candidates: ['DF#A']
+	Event: 83 0.0	Pitches: AG	Step2 Pitches: GA	Chord: []	Dissonance: 	
+	Event: 84 0.25	Pitches: G	Step2 Pitches: DF#GA	Chord: ['DF#A']	Dissonance: ['G']	
+	Event: 85 0.5	Pitches: F#D	Step2 Pitches: DGF#	Chord: ['DF#A']	Dissonance: []	
+	Event: 86 0.75	Pitches: DG	Step2 Pitches: DAF#G	Chord: ['DAF#']	Dissonance: ['G']	
+	Event: 87 1.0	Pitches: AF#	Step2 Pitches: DF#GA	Chord: ['DF#A']	Dissonance: []	
+	Event: 88 1.25	Pitches: F#G	Step2 Pitches: F#GA	Chord: ['DF#A']	Dissonance: ['G']	
+	Event: 89 1.5	Pitches: F#G	Step2 Pitches: F#GE	Chord: ['EGB']	Dissonance: ['F#']	
+	Event: 90 1.75	Pitches: GE	Step2 Pitches: GEF#	Chord: ['CGE']	Dissonance: []	
+Measure: 15 no. of events: 4 candidates: []
+	Event: 91 0.0	Pitches: DA	Step2 Pitches: DA	Chord: ['DAF#']	Dissonance: []	
+	Event: 92 0.5	Pitches: D	Step2 Pitches: DG#A	Chord: ['DAF']	Dissonance: []	
+	Event: 93 1.0	Pitches: DG#	Step2 Pitches: DAG#	Chord: ['DAF#']	Dissonance: ['G#']	
+	Event: 94 1.5	Pitches: DA	Step2 Pitches: G#DA	Chord: ['DAF']	Dissonance: []	
+
+Modulations:
+Measure: 1	Offset: 1.25 D Minor
+Measure: 1	Offset: 1.75 D Minor
+Measure: 2	Offset: 1.75 A Major
+Measure: 3	Offset: 1.25 A Major
+Measure: 4	Offset: 1.75 C Major
+Measure: 5	Offset: 1.75 A Minor
+Measure: 7	Offset: 1.0 E Major
+Measure: 7	Offset: 1.25 E Major
+Measure: 8	Offset: 0.0 D Minor
+Measure: 8	Offset: 0.5 G Minor
+Measure: 8	Offset: 1.0 G Minor
+Measure: 9	Offset: 0.5 D Major
+Measure: 9	Offset: 1.0 D Major
+Measure: 9	Offset: 1.5 G Minor
+Measure: 10	Offset: 0.0 G Minor
+Measure: 10	Offset: 1.625 D Major
+Measure: 10	Offset: 1.75 E Minor
+Measure: 10	Offset: 1.875 G Major
+Measure: 11	Offset: 0.0 G Minor
+Measure: 11	Offset: 0.5 D Minor
+Measure: 11	Offset: 1.0 G Minor
+Measure: 11	Offset: 1.5 C Major
+Measure: 12	Offset: 1.75 C Major
+Measure: 12	Offset: 1.875 E Minor
+Measure: 13	Offset: 0.5 D Minor
+Measure: 13	Offset: 1.0 D Major
+Measure: 14	Offset: 1.25 D Major
+Measure: 14	Offset: 1.5 E Minor
+Measure: 14	Offset: 1.75 G Major
+Measure: 15	Offset: 0.0 G Minor
+Measure: 15	Offset: 0.5 D Minor
+Measure: 15	Offset: 1.0 G Minor
+

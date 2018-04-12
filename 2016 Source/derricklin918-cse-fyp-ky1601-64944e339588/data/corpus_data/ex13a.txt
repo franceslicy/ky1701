@@ -1,0 +1,16 @@
+ex13a.xml	Und gehst du ueber den Kirchhof	Brahms
+E	Major	14
+E_maj_0
+E_maj7_3
+A_maj_0
+A_maj7_0
+B_maj_0
+B_dom7_0
+E_maj_1
+E_maj7_1
+A_maj_0
+B_maj_0
+C#_min_0
+A#_hdim_0
+B_maj_0
+E_maj_0

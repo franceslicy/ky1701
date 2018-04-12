@@ -1,0 +1,16 @@
+ex42a.xml	Tragodie, mm. 1-9	Schumann
+E	Major	4
+E_maj_0
+B_dom7_0
+F#_dom7_1
+F#_dom7_3
+C#	Minor	5
+C#_min_1
+G#_dom7_1
+C#_min_0
+G#_dom7_2
+C#_min_0
+B	Major	3
+X_ger6_0
+F#_dom7_0
+B_maj_0

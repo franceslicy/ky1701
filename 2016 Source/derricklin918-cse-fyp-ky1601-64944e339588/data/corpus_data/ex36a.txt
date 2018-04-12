@@ -1,0 +1,38 @@
+ex36a.xml	Impromptu Op. 90 No. 1, mm. 42-55	Schubert
+Ab	Major	14
+Ab_maj_1
+Ab_maj_0
+Ab_maj_1
+Db_maj_0
+Ab_maj_1
+Eb_dom7_2
+Ab_maj_0
+Bb_min7_2
+Db_maj_0
+Ab_maj_2
+Eb_maj_0
+Ab_maj_0
+Ab_maj_0
+Ab_maj_1
+Cb	Major	13
+Db_min_0
+Cb_maj_0
+Db_min_1
+Cb_maj_1
+Fb_maj_0
+Cb_maj_2
+Gb_maj_0
+Cb_maj_0
+Cb_maj_0
+Eb_dom7_2
+Eb_dom7_1
+Ab_min_0
+Bb_dim_1
+Ab	Major	7
+Cb_maj_0
+Eb_dom7_2
+Eb_dom7_1
+Ab_min_0
+Bb_dim_1
+Eb_dom7_0
+Ab_maj_0

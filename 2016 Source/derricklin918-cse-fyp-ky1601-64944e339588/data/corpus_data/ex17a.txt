@@ -1,0 +1,15 @@
+ex17a.xml	Nocturne Op. 27, No. 1, mm. 41-52	Chopin
+F#	Minor	5
+C#_dom7_1
+F#_min_0
+C#_dom7_2
+F#_min_1
+A#_fdim_0
+E	Major	3
+E_maj_2
+B_dom7_0
+E_maj_0
+Ab	Major	3
+Ab_maj_2
+Eb_dom7_0
+Ab_maj_0

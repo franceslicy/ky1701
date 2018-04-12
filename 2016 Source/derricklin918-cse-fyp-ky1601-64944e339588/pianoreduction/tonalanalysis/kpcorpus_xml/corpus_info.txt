@@ -1,0 +1,127 @@
+ex1a.xml	minuet	Bach	1
+0	48	G	Major
+ex2a.xml	Kindlein	Bach	5
+0	8	G	Major
+8	16	C	Major
+16	26	G	Major
+26	32	D	Major
+32	44	G	Major
+ex3a.xml	Jesu	Bach	4
+0 	22	G	Minor
+22	32	F	Major
+32	47	Bb	Major
+47	56	G	Minor
+ex4a.xml	Rondo-op.51-no.1	Beethoven	3
+0	15	C	Major
+15	52	B	Major
+52	72	C	Major
+ex5a.xml	Sonata-op.10-no.1,II	Beethoven	1
+0	16	Ab	Major
+ex6a.xml	Sonata-op.10-no.3,II	Beethoven	2
+0	10.5	D	Minor
+10.5	27	C	Major
+ex7a.xml	Sonata-op.13,II	Beethoven	1
+0	32	Ab	Major
+ex8a.xml	Sonata-op.14-no.1,III	Beethoven	1
+0	48	E	Minor
+ex9a.xml	Sonata-op.2-no.3,III	Beethoven	1
+0	24	A	Minor
+ex10a.xml	Sonata-op.27,I	Beethoven	2
+0	26	C#	Minor
+26 	36	E	Major
+ex11a.xml	String-Quartet-Op.135,III	Beethoven	1
+0	30	Db	Major
+ex12a.xml	String-Trio-Op.9-No.3,II	Beethoven	1
+0	40	C	Major
+ex13a.xml	Und gehst du ueber den Kirchhof	Brahms	1
+0	30	E	Major
+ex14a.xml	Oh! You Beautiful Doll!	Ayer	1
+0	36	Ab	Major
+ex15a.xml	Mazurka Op. 62, No. 7, mm. 1-16	Chopin	1
+0	51	G	Minor
+ex16a.xml	Mazurka Op. 63, No. 2, mm. 1-16	Chopin	1
+21	48	F	Minor
+ex17a.xml	Nocturne Op. 27, No. 1, mm. 41-52	Chopin	3
+0	15	F#	Minor
+15	24	E	Major
+24	36	Ab	Major
+ex18a.xml	The Mountain Maid Op. 67, No. 2, mm. 1-11	Grieg	1
+0	44	F	Minor
+ex19a.xml	Sonata No. 22, III, mm. 1-8	Haydn	2
+0	15	E	Major
+12	24	B	Major
+ex20a.xml	Sonata No. 30, I, mm.84-96	Haydn	1
+0	26	F#	Minor
+ex21a.xml	String Quartet Op. 20 No. 4, I, mm. 13-24	Haydn	1
+0	36	D	Major
+ex22a.xml	String Quartet Op. 50 No. 6, II, mm 55-63	Haydn	1
+0	30	D	Major
+ex23a.xml	String Quartet Op. 74 No. 3, II, mm. 30-37	Haydn	2
+0	6	C	Major
+6	32	E	Minor
+ex24a.xml	String Quartet Op. 76 No. 6, II, mm. 31-39	Haydn	2
+0	15	Bb	Major
+15	27	B	Major
+ex25a.xml	Bassoon Concerto K. 191, II, mm. 42-50	Mozart	1
+0	36	F	Major
+ex26a.xml	Eine Kleine Nachtmusik, L. 525, II, 61 mm. 1-8	Mozart	1
+0	36	C	Major
+ex27a.xml	Piano Concerto K. 488, II, mm. 1-12	Mozart	1
+0	36	F#	Minor
+ex28a.xml	Sonata K. 330, II, mm. 21-28	Mozart	2
+0	15	F	Minor
+15	27	Ab	Major
+ex29a.xml	Sonata K. 333, III, mm. 91-98	Mozart	2
+0	16	C	Minor
+16	32	Bb	Major
+ex30a.xml	Piano Trio K. 542, I, mm. 210-229	Mozart	3
+0	15	E	Major
+15	39	C	Major
+39	60	E	Major
+ex31a.xml	Marriage of Figaro, "Voi che sapete", mm. 41-52	Mozart	3
+0	10	Ab	Major
+10	16	C	Minor
+16	24	G	Minor
+ex32a.xml	Sonata in Bb, D. 960, I, mm. 149-68	Schubert	4
+0	20	B	Major
+20	33	Bb	Minor
+24	64	Db	Major
+68	80	E	Major
+ex33a.xml	Erlkonig, mm. 113-23	Schubert	1
+0	44	D	Minor
+ex34a.xml	Erlkonig, mm. 134-48	Schubert	1
+0	60	G	Minor
+ex35a.xml	Auf dem Flusse, mm. 14-21	Schubert	2
+0	12	E	Minor
+12	18	D#	Minor
+ex36a.xml	Impromptu Op. 90 No. 1, mm. 42-55	Schubert	3
+0	28	Ab	Major
+28	52	Cb	Major
+44	60	Ab	Major
+ex37a.xml	String Trio D. 471, mm. 187-201	Schubert	1
+0	60	Bb	Major
+ex38a.xml	Originaltanze Op. 9 No. 14, mm. 1-24	Schubert	3
+0	42	Db	Major
+42	66	A	Major
+66	75	Db	Major
+ex40a.xml	Sehnsucht, mm. 2-11	Schumann	3
+0	3.75	D	Minor
+3.75	6.75	F	Major
+6.75	8.25	D	Minor
+ex41a.xml	Aus meinen Thranen spriessen, mm. 1-17	Schumann	1
+0	36	A	Major
+ex42a.xml	Tragodie, mm. 1-9	Schumann	3
+0	20	E	Major
+20	28	C#	Minor
+28	36	B	Major
+ex43a.xml	Wenn ich in deine Augen seh', mm. 1-21	Schumann	4
+0	12	G	Major
+10	21	C	Major
+21	36	E	Minor
+30	60	G	Major
+ex44a.xml	Morning Prayer, mm. 1-17	Tchaikovsky	1
+0	48	G	Major
+ex45a.xml	The Nurse's Tail, mm. 5-15	Tchaikovsky	1
+0	24	C	Major
+ex46a.xml	Symphony No. 6, I, mm. 89-97	Tchaikovsky	1
+0	36	D	Major

@@ -1,0 +1,31 @@
+ex45a.xml	The Nurse's Tail, mm. 5-15	Tchaikovsky
+C	Major	29
+C_maj_0
+X_ger6_0
+G_maj_0
+X_it6_0
+X_ger6_0
+G_maj_0
+X_it6_0
+X_ger6_0
+G_dom7_2
+X_ger6_0
+G_maj_1
+X_ger6_0
+G_dom7_2
+X_ger6_0
+G_maj_1
+C_dom7_3
+A_dom7_0
+C#_dim_1
+D_min_0
+C#_fdim_2
+D_min_1
+C#_fdim_3
+D_min_2
+C#_fdim_0
+D_min_0
+D_min_1
+F#_fdim_0
+G_maj_1
+C_maj_0

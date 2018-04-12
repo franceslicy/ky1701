@@ -1,0 +1,27 @@
+ex37a.xml	String Trio D. 471, mm. 187-201	Schubert
+Bb	Major	25
+A_hdim_0
+Bb_maj_0
+Bb_maj_0
+Bb_maj_0
+B_fdim_0
+C_min_0
+D_hdim_2
+Eb_maj_1
+B_fdim_0
+C_min_0
+D_hdim_2
+Eb_maj_1
+D_hdim_2
+Eb_maj_1
+D_hdim_2
+D_fdim_0
+Eb_maj_0
+E_fdim_0
+Bb_maj_2
+F_dom7_0
+Bb_maj_0
+X_ger6_0
+Bb_maj_0
+X_Ger6_0
+Bb_maj_0

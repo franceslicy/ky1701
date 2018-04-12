@@ -1,0 +1,17 @@
+canon_in_D_excerpt_1,16
+0,D,F#,A
+1,D,F#,A
+2,A,C#,E
+3,A,C#,E
+4,B,D,F#
+5,B,D,F#
+6,F#,A,C#
+7,F#,A,C#
+8,G,B,D
+9,G,B,D
+10,D,F#,A
+11,D,F#,A
+12,G,B,D
+13,G,B,D
+14,A,C#,E
+15,A,C#,E

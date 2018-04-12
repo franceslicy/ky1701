@@ -3,6 +3,7 @@ import math
 from itertools import groupby
 from pprint import *
 from music21 import *
+from copy import deepcopy
 
 def fillRestAndQuantify(pn_list, isTrain=False):
 	# prev note list
@@ -37,18 +38,7 @@ def fillRestAndQuantify(pn_list, isTrain=False):
 				else:
 					filled_n = nex[1]
 			else:
-				if nex is None:
-					filled_n = prev[1]
-				else:
-					# compare prev & nex
-					if math.floor(beat) == math.floor(prev[0]):
-						filled_n = prev[1]
-					elif math.floor(beat) == math.floor(nex[0]):
-						filled_n = nex[1]
-					elif beat-prev[0] >= nex[0]-beat:
-						filled_n = prev[1]
-					else:
-						filled_n = nex[1]
+				filled_n = prev[1]
 		
 		if filled_n is not None:
 			if filled_n.isChord:
@@ -85,6 +75,20 @@ def parameterize(measure, beat, param_list, isTrain=False):
 	else:
 		return ((measure,beat),vector)
 
+def getMovingScore(pn_list):
+	def haveSamePitch(n1,n2):
+		n1 = [n1] if n1.isNote else n1
+		n2 = [n2] if n2.isNote else n2
+		for i in n1:
+			for j in n2:
+				if i.name == j.name: return True
+		return False
+	pn_list = [(beat, [pitch for _, pitch in g] for beat, g in groupby(deepcopy(pn_list), key=lambda x: x[0]))]
+	changeBeat = [1]
+	for i, (beat, pitch_list) in enumerate(pn_list):
+		if not i+1 == len(pn_list) and not haveSamePitch(pitch_list, pn_list[i+1][1]):
+			changeBeat.append(beat)
+	
 
 
 def preProcess(s, isTrain=False):
@@ -105,6 +109,7 @@ def preProcess(s, isTrain=False):
 		for p in m.parts:
 			pn_list = [(n.beat,n) for n in p.recurse().getElementsByClass('GeneralNote')]
 			pn_list = fillRestAndQuantify(pn_list, isTrain)
+			pn_list_movingScore = getMovingScore(pn_list)
 			n_list.extend(pn_list)
 		n_list = sorted(n_list, key=lambda x: x[0])
 		beat_list = [(beat, [pitch for _, pitch in g]) for beat, g in groupby(n_list, key=lambda x: x[0])]

@@ -1,0 +1,30 @@
+
+All examples are in C major.
+
+The roman numbers in the numeral system fall into three categories:
+Tonic: I and VI chord (because its triad is similar to I “CEA”)
+Subdominant IV, II chord (because II 6/4 has the same bass note as II and its triad is similar)
+Dominant: V VII III (these chords build tension and instability and will resolve to I eventually.)
+
+The importance is: Tonic > Dominant > Subdominant
+
+The use of inversions of a chord can change the functionality of that chord as the bass notes are changed.
+
+For example, The first inversion of II (II 6/3) has notes FAD, compared to IV (FAC), is very similar. As they have the same bass note, which is F. II 6/3 can be considered as a IV chord as well,which is a subdominant chord.
+
+Another example is cadential 6/4 chord. It is a I chord in second inversion. However, the bass note is G and it serves as a V rather than I. Therefore, it is often written is V 6/4 to signifies a cadence. By using a sequence of V 6/4, V, I. It gives a “resolving” sound with notes converging to the tonic chord.
+
+GCE -> GBD -> CEG
+
+I try to do an example and ask if it is correct. Consider IV 6/4, which has notes CFA with two dissonances F and A. Combined with I chord, they alternate between chord tones E,G and dissonances F,A. While it has a chord change( I -> IV 6/4 )
+
+CEG -> CFA
+
+the functionality of IV 6/4 in this example is actually a I chord.
+
+For piano reduction purpose, recognizing chords allow us to do further operation to optimize the reduction result. 
+
+For instance, we can try to simplify a chord by removing less important notes. For example, the seventh can be removed in a seventh chord. If necessary, the fifth can be removed and left a partial chord.
+
+E.g. V7 — reduce -> V — further reduce -> only contains root and third.
+

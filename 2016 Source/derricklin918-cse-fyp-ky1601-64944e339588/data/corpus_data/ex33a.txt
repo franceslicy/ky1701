@@ -1,0 +1,9 @@
+ex33a.xml	Erlkonig, mm. 113-23	Schubert
+D	Minor	7
+D_min_0
+Eb_maj_0
+Eb_maj_0
+C#_fdim_2
+G#_fdim_0
+D_min_2
+A_maj_0

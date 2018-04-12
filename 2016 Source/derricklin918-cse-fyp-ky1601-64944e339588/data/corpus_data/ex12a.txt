@@ -1,0 +1,37 @@
+ex12a.xml	String-Trio-Op.9-No.3,II	Beethoven
+C	Major	35
+C_maj_0
+A_min_0
+A_dom7_3
+A_dom7_2
+D_min_0
+G_maj_0
+G_dom7_3
+C_maj_1
+G_dom7_2
+C_maj_0
+A_min_0
+E_dom7_1
+A_min_0
+D_maj_6
+G_maj_0
+D_dom7_0
+G_maj_0
+C_min_0
+Eb_dom7_2
+Ab_maj_0
+X_It6_0
+A_min_0
+A_dom7_2
+A_dom7_2
+D_min_0
+C_maj_1
+G_dom7_2
+C_maj_0
+D_min_1
+G_maj_0
+G#_fdim_0
+A_min_0
+C_maj_2
+G_dom7_0
+C_maj_0

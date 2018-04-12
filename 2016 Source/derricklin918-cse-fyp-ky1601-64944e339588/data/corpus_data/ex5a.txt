@@ -1,0 +1,14 @@
+ex5a.xml	Sonata-op.10-no.1,II	Beethoven
+Ab	Major	12
+Ab_maj_0
+Eb_dom7_1
+Ab_maj_0
+Eb_dom7_1
+Ab_maj_0
+Eb_maj_0
+Ab_maj_1
+Db_maj_0
+Db_maj_1
+Eb_dom7_1
+Ab_maj_0
+Ab_maj_2

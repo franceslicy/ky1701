@@ -1,0 +1,18 @@
+ex7a.xml	Sonata-op.13,II	Beethoven
+Ab	Major	16
+Ab_maj_0
+Eb_dom7_3
+Ab_maj_1
+Eb_dom7_1
+Ab_maj_0
+Eb_maj_1
+F_min_0
+Bb_dom7_2
+Eb_maj_0
+G_hdim_2
+Eb_dom7_3
+Ab_maj_1
+F_dom7_0
+Bb_min_0
+Eb_dom7_0
+Ab_maj_0

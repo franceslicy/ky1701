@@ -1,0 +1,19 @@
+ex15a.xml	Mazurka Op. 62, No. 7, mm. 1-16	Chopin
+G	Minor	17
+D_dom7_0
+Eb_maj_1
+F_dom7_1
+Bb_maj_0
+D_dom7_0
+C_min_0
+C_min_0
+G_min_0
+C_min_0
+D_maj_1
+Eb_maj_1
+F_dom7_1
+Bb_maj_0
+D_dom7_0
+G_min_0
+C_min_0
+D_dom7_0

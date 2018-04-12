@@ -1,0 +1,699 @@
+C major
+I:	C E G 
+bII:	Db F Ab 
+II:	D F A
+II7: D F A C 
+III:	E G B 
+IV:	F A C 
+V:	G B D
+V7: G B D F 
+bVI:	Ab C Eb 
+gerVI:	Ab C Eb F# 
+freVI:	Ab C D F# 
+itaVI:	Ab C F# 
+VI:	A C E 
+VII:	B D F
+dimVII:	B D F Ab 
+
+C minor
+I:	C Eb G 
+I+:	C E G 
+bII:	Db F Ab 
+II:	D F Ab
+II7: D F Ab C 
+III:	Eb G Bb 
+IV:	F Ab C 
+IV+:	F A C 
+V:	G Bb D 
+V+:	G B D 
+V+7:	G B D F 
+VI:	Ab C Eb 
+gerVI:	Ab C Eb F# 
+freVI:	Ab C D F# 
+itaVI:	Ab C F# 
+VII:	Bb D F 
+dimVII:	B D F Ab 
+
+D major
+I:	D F# A 
+bII:	Eb G Bb 
+II:	E G B  
+II7
+III:	F# A C# 
+IV:	G B D 
+V:	A C# E G 
+V7
+bVI:	Bb D F 
+gerVI:	Bb D F G# 
+freVI:	Bb D E G# 
+itaVI:	Bb D G# 
+VI:	B D F#
+VII:	C# E G 
+dimVII:	C# E G Bb 
+
+D minor
+I:	D F A 
+I+:	D F# A 
+bII:	Eb G Bb 
+II:	E G Bb
+II7
+III:	F A C 
+IV:	G Bb D 
+IV+:	G B D 
+V:	A C E 
+V+:	A C# E 
+V+7:	A C# E G 
+VI:	Bb D F 
+gerVI:	Bb D F G# 
+freVI:	Bb D E G# 
+itaVI:	Bb D G# 
+VII:	C E G 
+dimVII:	C# E G Bb 
+
+E major
+I:	E G# B D# 
+bII:	F A C 
+II:	F# A C# E 
+III:	G# B D# F# 
+IV:	A C# E G# 
+V:	B D# F# A 
+bVI:	C E G 
+gerVI:	C E G A# 
+freVI:	C E F# A# 
+itaVI:	C E A# 
+VI:	C# E G# B 
+VII:	D# F# A C# 
+dimVII:	D# F# A C 
+
+E minor
+I:	E G B 
+I+:	E G# B 
+bII:	F A C 
+II:	F# A C E 
+III:	G B D 
+IV:	A C E 
+IV+:	A C# E 
+V:	B D F# 
+V+:	B D# F# 
+V+7:	B D# F# A 
+VI:	C Eb G 
+gerVI:	C E G A# 
+freVI:	C E F# A# 
+itaVI:	C E A# 
+VII:	D F A 
+dimVII:	D# F# A C 
+
+F major
+I:	F A C E 
+bII:	Gb Bb Db 
+II:	G Bb D F 
+III:	A C E G 
+IV:	Bb D F A 
+V:	C E G Bb 
+bVI:	Db F Ab 
+gerVI:	Db F Ab B 
+freVI:	Db F G B 
+itaVI:	Db F B 
+VI:	D F A C 
+VII:	E G Bb D 
+dimVII:	E G Bb Db 
+
+F minor
+I:	F Ab C 
+I+:	F A C 
+bII:	Gb Bb Db 
+II:	G Bb Db F 
+III:	Ab C Eb 
+IV:	Bb Db F 
+IV+:	Bb D F 
+V:	C Eb G 
+V+:	C E G 
+V+7:	C E G Bb 
+VI:	Db Fb Ab 
+gerVI:	Db F Ab B 
+freVI:	Db F G B 
+itaVI:	Db F B 
+VII:	Eb Gb Bb 
+dimVII:	E G Bb Db 
+
+G major
+I:	G B D F# 
+bII:	Ab C Eb 
+II:	A C E G 
+III:	B D F# A 
+IV:	C E G B 
+V:	D F# A C 
+bVI:	Eb G Bb 
+gerVI:	Eb G Bb C# 
+freVI:	Eb G A C# 
+itaVI:	Eb G C# 
+VI:	E G B D 
+VII:	F# A C E 
+dimVII:	F# A C Eb 
+
+G minor
+I:	G Bb D 
+I+:	G B D 
+bII:	Ab C Eb 
+II:	A C Eb G 
+III:	Bb D F 
+IV:	C Eb G 
+IV+:	C E G 
+V:	D F A 
+V+:	D F# A 
+V+7:	D F# A C 
+VI:	Eb Gb Bb 
+gerVI:	Eb G Bb C# 
+freVI:	Eb G A C# 
+itaVI:	Eb G C# 
+VII:	F Ab C 
+dimVII:	F# A C Eb 
+
+A major
+I:	A C# E G# 
+bII:	Bb D F 
+II:	B D F# A 
+III:	C# E G# B 
+IV:	D F# A C# 
+V:	E G# B D 
+bVI:	F A C 
+gerVI:	F A C D# 
+freVI:	F A B D# 
+itaVI:	F A D# 
+VI:	F# A C# E 
+VII:	G# B D F# 
+dimVII:	G# B D F 
+
+A minor
+I:	A C E 
+I+:	A C# E 
+bII:	Bb D F 
+II:	B D F A 
+III:	C E G 
+IV:	D F A 
+IV+:	D F# A 
+V:	E G B 
+V+:	E G# B 
+V+7:	E G# B D 
+VI:	F Ab C 
+gerVI:	F A C D# 
+freVI:	F A B D# 
+itaVI:	F A D# 
+VII:	G Bb D 
+dimVII:	G# B D F 
+
+B major
+I:	B D# F# A# 
+bII:	C E G 
+II:	C# E G# B 
+III:	D# F# A# C# 
+IV:	E G# B D# 
+V:	F# A# C# E 
+bVI:	G B D 
+gerVI:	G B D E# 
+freVI:	G B C# E# 
+itaVI:	G B E# 
+VI:	G# B D# F# 
+VII:	A# C# E G# 
+dimVII:	A# C# E G 
+
+B minor
+I:	B D F# 
+I+:	B D# F# 
+bII:	C E G 
+II:	C# E G B 
+III:	D F# A 
+IV:	E G B 
+IV+:	E G# B 
+V:	F# A C# 
+V+:	F# A# C# 
+V+7:	F# A# C# E 
+VI:	G Bb D 
+gerVI:	G B D E# 
+freVI:	G B C# E# 
+itaVI:	G B E# 
+VII:	A C E 
+dimVII:	A# C# E G 
+
+Db major
+I:	Db F Ab C 
+bII:	Ebb Gb Bbb 
+II:	Eb Gb Bb Db 
+III:	F Ab C Eb 
+IV:	Gb Bb Db F 
+V:	Ab C Eb Gb 
+bVI:	Bbb Db Fb 
+gerVI:	Bbb Db Fb G 
+freVI:	Bbb Db Eb G 
+itaVI:	Bbb Db G 
+VI:	Bb Db F Ab 
+VII:	C Eb Gb Bb 
+dimVII:	C Eb Gb Bbb 
+
+Db minor
+I:	Db Fb Ab 
+I+:	Db F Ab 
+bII:	Ebb Gb Bbb 
+II:	Eb Gb Bbb Db 
+III:	Fb Ab Cb 
+IV:	Gb Bbb Db 
+IV+:	Gb Bb Db 
+V:	Ab Cb Eb 
+V+:	Ab C Eb 
+V+7:	Ab C Eb Gb 
+VI:	Bbb Dbb Fb 
+gerVI:	Bbb Db Fb G 
+freVI:	Bbb Db Eb G 
+itaVI:	Bbb Db G 
+VII:	Cb Ebb Gb 
+dimVII:	C Eb Gb Bbb 
+
+C# major
+I:	C# E# G# B# 
+bII:	D F# A 
+II:	D# F# A# C# 
+III:	E# G# B# D# 
+IV:	F# A# C# E# 
+V:	G# B# D# F# 
+bVI:	A C# E 
+gerVI:	A C# E Fx 
+freVI:	A C# D# Fx 
+itaVI:	A C# Fx 
+VI:	A# C# E# G# 
+VII:	B# D# F# A# 
+dimVII:	B# D# F# A 
+
+C# minor
+I:	C# E G# 
+I+:	C# E# G# 
+bII:	D F# A 
+II:	D# F# A C# 
+III:	E G# B 
+IV:	F# A C# 
+IV+:	F# A# C# 
+V:	G# B D# 
+V+:	G# B# D# 
+V+7:	G# B# D# F# 
+VI:	A C E 
+gerVI:	A C# E Fx 
+freVI:	A C# D# Fx 
+itaVI:	A C# Fx 
+VII:	B D F# 
+dimVII:	B# D# F# A 
+
+Eb major
+I:	Eb G Bb D 
+bII:	Fb Ab Cb 
+II:	F Ab C Eb 
+III:	G Bb D F 
+IV:	Ab C Eb G 
+V:	Bb D F Ab 
+bVI:	Cb Eb Gb 
+gerVI:	Cb Eb Gb A 
+freVI:	Cb Eb F A 
+itaVI:	Cb Eb A 
+VI:	C Eb G Bb 
+VII:	D F Ab C 
+dimVII:	D F Ab Cb 
+
+Eb minor
+I:	Eb Gb Bb 
+I+:	Eb G Bb 
+bII:	Fb Ab Cb 
+II:	F Ab Cb Eb 
+III:	Gb Bb Db 
+IV:	Ab Cb Eb 
+IV+:	Ab C Eb 
+V:	Bb Db F 
+V+:	Bb D F 
+V+7:	Bb D F Ab 
+VI:	Cb Ebb Gb 
+gerVI:	Cb Eb Gb A 
+freVI:	Cb Eb F A 
+itaVI:	Cb Eb A 
+VII:	Db Fb Ab 
+dimVII:	D F Ab Cb 
+
+D# major
+I:	D# Fx A# Cx 
+bII:	E G# B 
+II:	E# G# B# D# 
+III:	Fx A# Cx E# 
+IV:	G# B# D# Fx 
+V:	A# Cx E# G# 
+bVI:	B D# F# 
+gerVI:	B D# F# Gx 
+freVI:	B D# E# Gx 
+itaVI:	B D# Gx 
+VI:	B# D# Fx A# 
+VII:	Cx E# G# B# 
+dimVII:	Cx E# G# B 
+
+D# minor
+I:	D# F# A# 
+I+:	D# Fx A# 
+bII:	E G# B 
+II:	E# G# B D# 
+III:	F# A# C# 
+IV:	G# B D# 
+IV+:	G# B# D# 
+V:	A# C# E# 
+V+:	A# Cx E# 
+V+7:	A# Cx E# G# 
+VI:	B D F# 
+gerVI:	B D# F# Gx 
+freVI:	B D# E# Gx 
+itaVI:	B D# Gx 
+VII:	C# E G# 
+dimVII:	Cx E# G# B 
+
+Fb major
+I:	Fb Ab Cb Eb 
+bII:	Gbb Bbb Dbb 
+II:	Gb Bbb Db Fb 
+III:	Ab Cb Eb Gb 
+IV:	Bbb Db Fb Ab 
+V:	Cb Eb Gb Bbb 
+bVI:	Dbb Fb Abb 
+gerVI:	Dbb Fb Abb Bb 
+freVI:	Dbb Fb Gb Bb 
+itaVI:	Dbb Fb Bb 
+VI:	Db Fb Ab Cb 
+VII:	Eb Gb Bbb Db 
+dimVII:	Eb Gb Bbb Dbb 
+
+Fb minor
+I:	Fb Abb Cb 
+I+:	Fb Ab Cb 
+bII:	Gbb Bbb Dbb 
+II:	Gb Bbb Dbb Fb 
+III:	Abb Cb Ebb 
+IV:	Bbb Dbb Fb 
+IV+:	Bbb Db Fb 
+V:	Cb Ebb Gb 
+V+:	Cb Eb Gb 
+V+7:	Cb Eb Gb Bbb 
+VI:	Dbb Fbb Abb 
+gerVI:	Dbb Fb Abb Bb 
+freVI:	Dbb Fb Gb Bb 
+itaVI:	Dbb Fb Bb 
+VII:	Ebb Gbb Bbb 
+dimVII:	Eb Gb Bbb Dbb 
+
+E# major
+I:	E# Gx B# Dx 
+bII:	F# A# C# 
+II:	Fx A# Cx E# 
+III:	Gx B# Dx Fx 
+IV:	A# Cx E# Gx 
+V:	B# Dx Fx A# 
+bVI:	C# E# G# 
+gerVI:	C# E# G# Ax 
+freVI:	C# E# Fx Ax 
+itaVI:	C# E# Ax 
+VI:	Cx E# Gx B# 
+VII:	Dx Fx A# Cx 
+dimVII:	Dx Fx A# C# 
+
+E# minor
+I:	E# G# B# 
+I+:	E# Gx B# 
+bII:	F# A# C# 
+II:	Fx A# C# E# 
+III:	G# B# D# 
+IV:	A# C# E# 
+IV+:	A# Cx E# 
+V:	B# D# Fx 
+V+:	B# Dx Fx 
+V+7:	B# Dx Fx A# 
+VI:	C# E G# 
+gerVI:	C# E# G# Ax 
+freVI:	C# E# Fx Ax 
+itaVI:	C# E# Ax 
+VII:	D# F# A# 
+dimVII:	Dx Fx A# C# 
+
+Gb major
+I:	Gb Bb Db F 
+bII:	Abb Cb Ebb 
+II:	Ab Cb Eb Gb 
+III:	Bb Db F Ab 
+IV:	Cb Eb Gb Bb 
+V:	Db F Ab Cb 
+bVI:	Ebb Gb Bbb 
+gerVI:	Ebb Gb Bbb C 
+freVI:	Ebb Gb Ab C 
+itaVI:	Ebb Gb C 
+VI:	Eb Gb Bb Db 
+VII:	F Ab Cb Eb 
+dimVII:	F Ab Cb Ebb 
+
+Gb minor
+I:	Gb Bbb Db 
+I+:	Gb Bb Db 
+bII:	Abb Cb Ebb 
+II:	Ab Cb Ebb Gb 
+III:	Bbb Db Fb 
+IV:	Cb Ebb Gb 
+IV+:	Cb Eb Gb 
+V:	Db Fb Ab 
+V+:	Db F Ab 
+V+7:	Db F Ab Cb 
+VI:	Ebb Gbb Bbb 
+gerVI:	Ebb Gb Bbb C 
+freVI:	Ebb Gb Ab C 
+itaVI:	Ebb Gb C 
+VII:	Fb Abb Cb 
+dimVII:	F Ab Cb Ebb 
+
+F# major
+I:	F# A# C# E# 
+bII:	G B D 
+II:	G# B D# F# 
+III:	A# C# E# G# 
+IV:	B D# F# A# 
+V:	C# E# G# B 
+bVI:	D F# A 
+gerVI:	D F# A B# 
+freVI:	D F# G# B# 
+itaVI:	D F# B# 
+VI:	D# F# A# C# 
+VII:	E# G# B D# 
+dimVII:	E# G# B D 
+
+F# minor
+I:	F# A C# 
+I+:	F# A# C# 
+bII:	G B D 
+II:	G# B D F# 
+III:	A C# E 
+IV:	B D F# 
+IV+:	B D# F# 
+V:	C# E G# 
+V+:	C# E# G# 
+V+7:	C# E# G# B 
+VI:	D F A 
+gerVI:	D F# A B# 
+freVI:	D F# G# B# 
+itaVI:	D F# B# 
+VII:	E G B 
+dimVII:	E# G# B D 
+
+Ab major
+I:	Ab C Eb G 
+bII:	Bbb Db Fb 
+II:	Bb Db F Ab 
+III:	C Eb G Bb 
+IV:	Db F Ab C 
+V:	Eb G Bb Db 
+bVI:	Fb Ab Cb 
+gerVI:	Fb Ab Cb D 
+freVI:	Fb Ab Bb D 
+itaVI:	Fb Ab D 
+VI:	F Ab C Eb 
+VII:	G Bb Db F 
+dimVII:	G Bb Db Fb 
+
+Ab minor
+I:	Ab Cb Eb 
+I+:	Ab C Eb 
+bII:	Bbb Db Fb 
+II:	Bb Db Fb Ab 
+III:	Cb Eb Gb 
+IV:	Db Fb Ab 
+IV+:	Db F Ab 
+V:	Eb Gb Bb 
+V+:	Eb G Bb 
+V+7:	Eb G Bb Db 
+VI:	Fb Abb Cb 
+gerVI:	Fb Ab Cb D 
+freVI:	Fb Ab Bb D 
+itaVI:	Fb Ab D 
+VII:	Gb Bbb Db 
+dimVII:	G Bb Db Fb 
+
+G# major
+I:	G# B# D# Fx 
+bII:	A C# E 
+II:	A# C# E# G# 
+III:	B# D# Fx A# 
+IV:	C# E# G# B# 
+V:	D# Fx A# C# 
+bVI:	E G# B 
+gerVI:	E G# B Cx 
+freVI:	E G# A# Cx 
+itaVI:	E G# Cx 
+VI:	E# G# B# D# 
+VII:	Fx A# C# E# 
+dimVII:	Fx A# C# E 
+
+G# minor
+I:	G# B D# 
+I+:	G# B# D# 
+bII:	A C# E 
+II:	A# C# E G# 
+III:	B D# F# 
+IV:	C# E G# 
+IV+:	C# E# G# 
+V:	D# F# A# 
+V+:	D# Fx A# 
+V+7:	D# Fx A# C# 
+VI:	E G B 
+gerVI:	E G# B Cx 
+freVI:	E G# A# Cx 
+itaVI:	E G# Cx 
+VII:	F# A C# 
+dimVII:	Fx A# C# E 
+
+Bb major
+I:	Bb D F A 
+bII:	Cb Eb Gb 
+II:	C Eb G Bb 
+III:	D F A C 
+IV:	Eb G Bb D 
+V:	F A C Eb 
+bVI:	Gb Bb Db 
+gerVI:	Gb Bb Db E 
+freVI:	Gb Bb C E 
+itaVI:	Gb Bb E 
+VI:	G Bb D F 
+VII:	A C Eb G 
+dimVII:	A C Eb Gb 
+
+Bb minor
+I:	Bb Db F 
+I+:	Bb D F 
+bII:	Cb Eb Gb 
+II:	C Eb Gb Bb 
+III:	Db F Ab 
+IV:	Eb Gb Bb 
+IV+:	Eb G Bb 
+V:	F Ab C 
+V+:	F A C 
+V+7:	F A C Eb 
+VI:	Gb Bbb Db 
+gerVI:	Gb Bb Db E 
+freVI:	Gb Bb C E 
+itaVI:	Gb Bb E 
+VII:	Ab Cb Eb 
+dimVII:	A C Eb Gb 
+
+A# major
+I:	A# Cx E# Gx 
+bII:	B D# F# 
+II:	B# D# Fx A# 
+III:	Cx E# Gx B# 
+IV:	D# Fx A# Cx 
+V:	E# Gx B# D# 
+bVI:	F# A# C# 
+gerVI:	F# A# C# Dx 
+freVI:	F# A# B# Dx 
+itaVI:	F# A# Dx 
+VI:	Fx A# Cx E# 
+VII:	Gx B# D# Fx 
+dimVII:	Gx B# D# F# 
+
+A# minor
+I:	A# C# E# 
+I+:	A# Cx E# 
+bII:	B D# F# 
+II:	B# D# F# A# 
+III:	C# E# G# 
+IV:	D# F# A# 
+IV+:	D# Fx A# 
+V:	E# G# B# 
+V+:	E# Gx B# 
+V+7:	E# Gx B# D# 
+VI:	F# A C# 
+gerVI:	F# A# C# Dx 
+freVI:	F# A# B# Dx 
+itaVI:	F# A# Dx 
+VII:	G# B D# 
+dimVII:	Gx B# D# F# 
+
+Cb major
+I:	Cb Eb Gb Bb 
+bII:	Dbb Fb Abb 
+II:	Db Fb Ab Cb 
+III:	Eb Gb Bb Db 
+IV:	Fb Ab Cb Eb 
+V:	Gb Bb Db Fb 
+bVI:	Abb Cb Ebb 
+gerVI:	Abb Cb Ebb F 
+freVI:	Abb Cb Db F 
+itaVI:	Abb Cb F 
+VI:	Ab Cb Eb Gb 
+VII:	Bb Db Fb Ab 
+dimVII:	Bb Db Fb Abb 
+
+Cb minor
+I:	Cb Ebb Gb 
+I+:	Cb Eb Gb 
+bII:	Dbb Fb Abb 
+II:	Db Fb Abb Cb 
+III:	Ebb Gb Bbb 
+IV:	Fb Abb Cb 
+IV+:	Fb Ab Cb 
+V:	Gb Bbb Db 
+V+:	Gb Bb Db 
+V+7:	Gb Bb Db Fb 
+VI:	Abb Cbb Ebb 
+gerVI:	Abb Cb Ebb F 
+freVI:	Abb Cb Db F 
+itaVI:	Abb Cb F 
+VII:	Bbb Dbb Fb 
+dimVII:	Bb Db Fb Abb 
+
+B# major
+I:	B# Dx Fx Ax 
+bII:	C# E# G# 
+II:	Cx E# Gx B# 
+III:	Dx Fx Ax Cx 
+IV:	E# Gx B# Dx 
+V:	Fx Ax Cx E# 
+bVI:	G# B# D# 
+gerVI:	G# B# D# Ex 
+freVI:	G# B# Cx Ex 
+itaVI:	G# B# Ex 
+VI:	Gx B# Dx Fx 
+VII:	Ax Cx E# Gx 
+dimVII:	Ax Cx E# G# 
+
+B# minor
+I:	B# D# Fx 
+I+:	B# Dx Fx 
+bII:	C# E# G# 
+II:	Cx E# G# B# 
+III:	D# Fx A# 
+IV:	E# G# B# 
+IV+:	E# Gx B# 
+V:	Fx A# Cx 
+V+:	Fx Ax Cx 
+V+7:	Fx Ax Cx E# 
+VI:	G# B D# 
+gerVI:	G# B# D# Ex 
+freVI:	G# B# Cx Ex 
+itaVI:	G# B# Ex 
+VII:	A# C# E# 
+dimVII:	Ax Cx E# G# 
+

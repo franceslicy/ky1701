@@ -1,0 +1,12 @@
+ex22a.xml	String Quartet Op. 50 No. 6, II, mm 55-63	Haydn
+D	Major	10
+D_maj_0
+D_maj_1
+G_maj_0
+A_maj_0
+G_maj_1
+F#_min_1
+G_maj_0
+E_min_1
+D_maj_2
+A_dom7_0

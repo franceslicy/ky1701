@@ -1,0 +1,23 @@
+ex4a.xml	Rondo-op.51-no.1	Beethoven
+C	Major	4
+C_maj_0
+B_fdim_1
+C_min_1
+Ab_dom7_3
+B	Major	6
+Db_maj_1
+Ab_dom7_1
+Db_maj_0
+Ab_dom7_3
+Db_maj_1
+Ab_dom7_1
+C	Major	9
+C_maj_2
+D_min_1
+F#_fdim_3
+G_dom7_0
+C_maj_2
+D_min_1
+F#_fdim_1
+G_dom7_0
+C_maj_0

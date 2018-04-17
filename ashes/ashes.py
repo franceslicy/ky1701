@@ -54,13 +54,13 @@ class Ashes:
 				for j in n2:
 					if i.name == j.name: return True
 			return False
-		changeBeatOfParts = [[1]]*self.grid.shape[0]
+		changeBeatOfParts = [[1] for i in range(self.grid.shape[0])]
 		for i in range(self.grid.shape[0]):
 			for j in range(self.grid.shape[1]-1):
 				if not haveSameName(self.grid[i,j], self.grid[i,j+1]):
 					changeBeatOfParts[i].append(self.beat[j+1])
 		changeBeatCounts = [len(beats) for beats in changeBeatOfParts]
-		lowestMovementParts = [i for i,count in enumerate(changeBeatCounts) if count == max(changeBeatCounts)]
+		lowestMovementParts = [i for i,count in enumerate(changeBeatCounts) if count == min(changeBeatCounts)]
 		if len(lowestMovementParts) > 1:
 			#lowest sounding
 			avgSoundings = [np.mean([(np.mean([cn.pitch.midi for cn in n]) if n.isChord else n.pitch.midi) for n in self.grid[i]]) for i in lowestMovementParts]
@@ -68,6 +68,7 @@ class Ashes:
 		else:
 			lowestMovementPartIndex = lowestMovementParts[0]
 		return (lowestMovementPartIndex, changeBeatOfParts[lowestMovementPartIndex])
+
 
 	def verticalMatch(self):
 		self.grid_possibleTriads = []

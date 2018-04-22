@@ -145,10 +145,10 @@ class Triad:
 		if triad_1.isSame(triad_2): return False
 		if len(set(triad_1.nNameList).intersection(set(triad_2.nNameList))) != 2: return False
 		interval_roots = interval.Interval(pitch.Pitch(triad_1.rootName), pitch.Pitch(triad_2.rootName))
-		if interval_roots.directedName[-2:] == '-3' or interval_roots.complement.directedName[-2:] == '-3':		#triad_2 is root
+		if interval_roots.directedName[-2:] == '-3' or (interval_roots.directedName[-1] == '6' and interval_roots.directedName[-2] != '-'):		#triad_2 is root
 			triad_root = triad_2
 			triad_third = triad_1
-		elif interval_roots.directedName[-1] == '3' or interval_roots.complement.directedName[-1] == '3':	#triad_1 is root
+		elif interval_roots.directedName[-1] == '3' or interval_roots.directedName[-2:] == '-6':	#triad_1 is root
 			triad_root = triad_1
 			triad_third = triad_2
 		else: return False

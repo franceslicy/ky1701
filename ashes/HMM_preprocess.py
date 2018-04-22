@@ -22,6 +22,11 @@ def toHMMvectors(m, mNumber, isTrain=False):
 			currentChord = chordlabels[j] or currentChord
 			start_j = j
 		accumulatePitch = accumulatePitch + pitchCount[j]
+	if isTrain:
+		vectors.append(((mNumber, a.beat[start_j]),[(1 if accumulatePitch[i] else 0) for i in range(12)], currentChord))
+	else:
+		vectors.append(((mNumber, a.beat[start_j]),[(1 if accumulatePitch[i] else 0) for i in range(12)]))
+	
 	return vectors
 
 def preprocess(s, isTrain=False):
@@ -38,3 +43,4 @@ def preprocess(s, isTrain=False):
 # isTrain = sys.argv[2] if len(sys.argv) == 3 else False
 # s = converter.parse(xmlName)
 # preprocess(s)
+

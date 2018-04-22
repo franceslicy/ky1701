@@ -61,6 +61,7 @@ class Ashes:
 					changeBeatOfParts[i].append(self.beat[j+1])
 		changeBeatCounts = [len(beats) for beats in changeBeatOfParts]
 		lowestMovementParts = [i for i,count in enumerate(changeBeatCounts) if count == min(changeBeatCounts)]
+		# print(changeBeatCounts,lowestMovementParts)
 		if len(lowestMovementParts) > 1:
 			#lowest sounding
 			avgSoundings = [np.mean([(np.mean([cn.pitch.midi for cn in n]) if n.isChord else n.pitch.midi) for n in self.grid[i]]) for i in lowestMovementParts]
@@ -113,7 +114,8 @@ class Ashes:
 				j_start = j
 			if accumulateTriad and possibleTriads:
 				currentTriad = list(set([x for x in [Triad.mergeChord(triad_1,triad_2) for triad_1 in accumulateTriad for triad_2 in possibleTriads] if x]))
-				currentTriad.extend([x for x in accumulateTriad if x not in currentTriad and x.is7thChord() and len(set(self.pitchCount[j].keys()).union(set(x.nNameList))) >= 2])
+				if not currentTriad and all(not x.isPerfectMatch() for x in possibleTriads):
+					currentTriad.extend([x for x in accumulateTriad if x not in currentTriad and x.is7thChord() and len(set(self.pitchCount[j].keys()).union(set(x.nNameList))) >= 2])
 				if currentTriad:
 					accumulateTriad = currentTriad
 				else:
@@ -135,6 +137,7 @@ class Ashes:
 		for (j, possibleTriads) in round1_Triad:
 			if accumulateTriad and possibleTriads:
 				currentTriad = list(set([x for x in [Triad.mergeChord(triad_1,triad_2) for triad_1 in accumulateTriad for triad_2 in possibleTriads] if x]))
+				# print(j,currentTriad)
 				if currentTriad:
 					accumulateTriad = currentTriad
 				else:

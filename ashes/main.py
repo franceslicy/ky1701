@@ -3,12 +3,22 @@ import ashes
 import sys
 
 xmlName = sys.argv[1]
-
 s = converter.parse(xmlName)
+
+while True:
+	raw_intput = input("transpose index, interval: ")
+	if raw_intput:
+		p_index, interval_str = raw_intput.split()
+		s.parts[int(p_index)].transpose(interval.Interval(interval_str), inPlace=True)
+	else:
+		break
+
+
+
 measureNumber = len(s.parts[0].getElementsByClass('Measure'))
 
 for i in range(1, measureNumber+1):
-	print(i)
+	# print(i)
 	m = s.measure(i)
 	ashesAnalysis = ashes.Ashes(m)
 	if ashesAnalysis.isValidMeasure():

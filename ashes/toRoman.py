@@ -120,3 +120,7 @@ def toRomanNo(chordName, key, mNumber):
 # {(1,1):"GMinor",(23,1): "DMajor",(29,1): "B-Major",(53,1): "FMinor",(59,1): "B-Major",(70,4): "FMajor",(71,2):"B-Major",(83,1):"GMinor",(93,1): "DMinor",(96,1): "AMinor", (103,1): "DMinor", (107,1): "DMajor", (109,1): "GMinor", (139,1): "DMajor", (145,1): "GMinor", (169,1): "CMinor", (174,1): "DMajor", (177,1): "GMinor",(188,4):"DMajor",(189,2):"GMinor",(204,1):"CMinor",(207,3):"GMinor"}
 
 # {(1,1):"FMajor",(2,1):"CMajor",(3,1):"GMajor",(5,1):"CMajor",(18,1):"DMinor",(24,1):"CMajor",(53,1):"GMajor",(64,1):"CMajor",(68,1):"GMajor",(74,1):"CMajor",(74,2.5):"DMajor",(75,1):"GMajor",(77,1):"GMinor",(86,1):"GMajor",(93,1):"EMajor",(95,1):"AMinor",(97,1):"DMajor",(100,1):"GMajor",(107,1):"CMajor",}
+
+# ["CMajor","D-Major","DMajor","E-Major","EMajor","FMajor","G-Major","GMajor","A-Major","AMajor","B-Major","BMajor"]
+# ["CMinor","D-Minor","DMinor","E-Minor","EMinor","FMinor","G-Minor","GMinor","A-Minor","AMinor","B-Minor","BMinor"]
+

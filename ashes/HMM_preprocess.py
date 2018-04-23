@@ -4,6 +4,8 @@ from music21 import *
 
 def toHMMvectors(m, mNumber, isTrain=False):
 	a = ashes.Ashes(m)
+	if not a.grid:
+		return None
 	pitchCount = [Counter(sum([ashes.Ashes.getPitchesNorIndexOfNote(n) for n in a.grid[:,j]],[])) for j in range(a.grid.shape[1])]
 	chordlabels = [next((n.lyrics[0].text for n in a.grid[:,j] if len(n.lyrics)==1 and n.lyrics[0].text), None) for j in range(a.grid.shape[1])]
 	cutoffBeat = a.lowestMovementPart()[1]
@@ -35,7 +37,8 @@ def preprocess(s, isTrain=False):
 	for mNumber in range(1,measureNumber+1):
 		m = s.measure(mNumber)
 		vector = toHMMvectors(m, mNumber, isTrain)
-		normalized_data.append(vector)
+		if vector:
+			normalized_data.append(vector)
 	return normalized_data
 
 

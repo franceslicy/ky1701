@@ -2,9 +2,12 @@ import ashes
 from collections import Counter
 from music21 import *
 
+major_list = ["CMajor","D-Major","DMajor","E-Major","EMajor","FMajor","G-Major","GMajor","A-Major","AMajor","B-Major","BMajor"]
+minor_list = ["CMinor","D-Minor","DMinor","E-Minor","EMinor","FMinor","G-Minor","GMinor","A-Minor","AMinor","B-Minor","BMinor"]
+
 def toHMMvectors(m, mNumber, isTrain=False):
 	a = ashes.Ashes(m)
-	if not a.grid:
+	if not a.isValidMeasure():
 		return None
 	pitchCount = [Counter(sum([ashes.Ashes.getPitchesNorIndexOfNote(n) for n in a.grid[:,j]],[])) for j in range(a.grid.shape[1])]
 	chordlabels = [next((n.lyrics[0].text for n in a.grid[:,j] if len(n.lyrics)==1 and n.lyrics[0].text), None) for j in range(a.grid.shape[1])]
@@ -31,6 +34,24 @@ def toHMMvectors(m, mNumber, isTrain=False):
 	
 	return vectors
 
+def normalizeByKey(vector_list):
+	currentKey = None
+	accumulateVector = []
+	accumulateVector_samekey = []
+	for index,pitches,label in vector_list:
+		key = label.split(",")[1]
+		shift_index = major_list.index(key) if key in major_list else minor_list.index(key)
+		normalizePitches = pitches[shift_index:] + pitches[:shift_index]
+		if currentKey == key or not accumulateVector_samekey:
+			accumulateVector_samekey.append((index,normalizePitches,label))
+		else:
+			accumulateVector.append(accumulateVector_samekey)
+			accumulateVector_samekey = [(index,normalizePitches,label)]
+		currentKey = key
+	accumulateVector.append(accumulateVector_samekey)
+	return accumulateVector
+
+
 def preprocess(s, isTrain=False):
 	measureNumber = len(s.parts[0].getElementsByClass('Measure'))
 	normalized_data = []
@@ -38,7 +59,9 @@ def preprocess(s, isTrain=False):
 		m = s.measure(mNumber)
 		vector = toHMMvectors(m, mNumber, isTrain)
 		if vector:
-			normalized_data.append(vector)
+			normalized_data.extend(vector)
+	if isTrain:
+		normalized_data = normalizeByKey(normalized_data)
 	return normalized_data
 
 

@@ -24,9 +24,7 @@ class Ashes:
 		
 		#remove rest parts & rests
 		grid_array = [p for p in grid_array if any(not n.isRest for n in p)]
-		self.grid = None
-		if not grid_array:
-			return
+		if not grid_array: return
 		self.grid = np.empty((len(grid_array),len(grid_array[0])), dtype=object)
 		for i,p in enumerate(grid_array):
 			current_n = None

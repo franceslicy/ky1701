@@ -65,10 +65,10 @@ def preprocess(s, isTrain=False):
 		normalized_data = normalizeByKey(normalized_data)
 	return normalized_data
 
-
-xmlName = sys.argv[1]
-isTrain = sys.argv[2] if len(sys.argv) == 3 else False
-s = converter.parse(xmlName)
-pre = preprocess(s)
-print(len(pre))
-print(pre)
+if __name__ == '__main__':
+	xmlName = sys.argv[1]
+	isTrain = sys.argv[2] if len(sys.argv) == 3 else False
+	s = converter.parse(xmlName)
+	pre = preprocess(s)
+	print(len(pre))
+	print(pre)

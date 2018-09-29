@@ -40,7 +40,10 @@ def normalizeByKey(vector_list):
 	accumulateVector = []
 	accumulateVector_samekey = []
 	for index,pitches,label in vector_list:
-		key = label.split(",")[1]
+		if label is None:
+			key = currentKey 
+		else:
+			key = label.split(",")[1]
 		shift_index = major_list.index(key) if key in major_list else minor_list.index(key)
 		normalizePitches = pitches[shift_index:] + pitches[:shift_index]
 		if currentKey == key or not accumulateVector_samekey:
@@ -53,7 +56,7 @@ def normalizeByKey(vector_list):
 	return accumulateVector
 
 
-def preprocess(s, isTrain=False):
+def preprocess(s, isTrain=True):
 	measureNumber = len(s.parts[0].getElementsByClass('Measure'))
 	normalized_data = []
 	for mNumber in range(1,measureNumber+1):
@@ -66,9 +69,18 @@ def preprocess(s, isTrain=False):
 	return normalized_data
 
 if __name__ == '__main__':
-	xmlName = sys.argv[1]
-	isTrain = sys.argv[2] if len(sys.argv) == 3 else False
-	s = converter.parse(xmlName)
-	pre = preprocess(s)
-	print(len(pre))
-	print(pre)
+    xmlName = sys.argv[1]
+    isTrain = True if len(sys.argv) == 3 and sys.argv[2] in ['1', 'True', 'true'] else False
+    s = converter.parse(xmlName)
+    pre = preprocess(s, isTrain)
+    print(len(pre))
+    f = open(xmlName[:-4]+".txt", "w")
+    if isTrain == True:
+        for vec in pre:
+            for i in vec:
+                if len(i) == 3:
+                    f.write(str(i[0]) + " | " + str(i[1]) + " | " + str(i[2]) + "\n")
+    else:
+        for vec in pre:
+             f.write(str(vec[0]) + " | " + str(vec[1]) + "\n")
+    f.close()

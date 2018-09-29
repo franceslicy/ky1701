@@ -258,8 +258,6 @@ if __name__ == "__main__":
         quantities_observations.append(1)
     
     model = hmm(states, possible_observation, start_prob, transition_prob, emission_prob)
-    #num_iter=100
-    #emission,transition,start = model.train_hmm(observation_tuple,num_iter,quantities_observations)
     
     test_data, name = load_test_files()
     for i in range(len(test_data)):

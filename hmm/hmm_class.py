@@ -294,35 +294,31 @@ class hmm:
         # store em_prob and trans_prob copies since you should use same values for one loop
         for i in range(iterations):
 
-            emProbNew = np.asmatrix(np.zeros((self.em_prob.shape)))
             transProbNew = np.asmatrix(np.zeros((self.trans_prob.shape)))
             startProbNew = np.asmatrix(np.zeros((self.start_prob.shape)))
 
             for j in range(obs_size):
 
                 # re-assing values based on weight
-                emProbNew= emProbNew + q[j] * self._train_emission(observation_list[j])
                 transProbNew = transProbNew + q[j] * self._train_transition(observation_list[j])
                 startProbNew = startProbNew + q[j] * self._train_start_prob(observation_list[j])
 
 
             # Normalizing
-            em_norm = emProbNew.sum(axis = 1)
             trans_norm = transProbNew.sum(axis = 1)
             start_norm = startProbNew.sum(axis = 1)
 
-            emProbNew = emProbNew/ em_norm
             startProbNew = startProbNew/ start_norm.transpose()
             transProbNew = transProbNew/ trans_norm.transpose()
 
 
-            self.em_prob,self.trans_prob = emProbNew,transProbNew
+            self.trans_prob = transProbNew
             self.start_prob = startProbNew
 
-            if prob -  self.log_prob(observation_list,quantities)>0.0000001:
-                prob = self.log_prob(observation_list,quantities)
-            else:
-                return self.em_prob, self.trans_prob , self.start_prob
+            #if prob -  self.log_prob(observation_list,quantities)>0.0000001:
+            #    prob = self.log_prob(observation_list,quantities)
+            #else:
+            #    return self.em_prob, self.trans_prob , self.start_prob
 
 
         return self.em_prob, self.trans_prob , self.start_prob

@@ -1,5 +1,6 @@
 import numpy as np
 from hmm_class import hmm
+from sklearn import preprocessing
 import pickle
 
 CHORD_LIST = ['I', 'I+', 'IIb', 'II', 'II7', 'III', 'IV', 'V', 'V7', 'V+', 'V+7', 'VIb', 'VI','VI7','VIGer', 'VII', 'VII7', 'VIIGer', 'VIIIta', 'VIIdim', 'VIIdim7']
@@ -218,33 +219,12 @@ if __name__ == "__main__":
             emission_prob = np.vstack((emission_prob, emission_dict[chord]))
     emission_prob = np.asmatrix(emission_prob)
     
-    diff = []
     for i in range(21):
         summation = 0
         for j in range(4096):
             summation += emission_prob[i,j]
-        diff.append(1-summation)
-    emission_prob[0,2192] += diff[0]
-    emission_prob[1,2184] += diff[1]
-    emission_prob[2,1096] += diff[2]
-    emission_prob[3,580] += diff[3]
-    emission_prob[4,2628] += diff[4]
-    emission_prob[5,145] += diff[5]
-    emission_prob[6,2116] += diff[6]
-    emission_prob[7,529] += diff[7]
-    emission_prob[8,593] += diff[8]
-    emission_prob[9,273] += diff[9]
-    emission_prob[10,337] += diff[10]
-    emission_prob[11,2312] += diff[11]
-    emission_prob[12,2180] += diff[12]
-    emission_prob[13,2196] += diff[13]
-    emission_prob[14,1188] += diff[14]
-    emission_prob[15,577] += diff[15]
-    emission_prob[16,581] += diff[16]
-    emission_prob[17,297] += diff[17]
-    emission_prob[18,265] += diff[18]
-    emission_prob[19,1153] += diff[19]
-    emission_prob[20,1169] += diff[20]
+        for j in range(4096):
+            emission_prob[i,j] /= summation
     
     observation_tuple = []
     for f in train_data:
@@ -258,6 +238,8 @@ if __name__ == "__main__":
         quantities_observations.append(1)
     
     model = hmm(states, possible_observation, start_prob, transition_prob, emission_prob)
+    #num_iter=100
+    #emission,transition,start = model.train_hmm(observation_tuple,num_iter,quantities_observations)
     
     test_data, name = load_test_files()
     for i in range(len(test_data)):
